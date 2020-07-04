@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!--This does not replace URDF, and is not an extension of URDF.
+    This is a format for representing semantic information about the robot structure.
+    A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
+-->
+<robot name="armbot">
+    <!--GROUPS: Representation of a set of joints and links. This can be useful for specifying DOF to plan for, defining arms, end effectors, etc-->
+    <!--LINKS: When a link is specified, the parent joint of that link (if it exists) is automatically included-->
+    <!--JOINTS: When a joint is specified, the child link of that joint (which will always exist) is automatically included-->
+    <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
+    <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
+    <group name="arm">
+        <joint name="virtual_joint" />
+        <joint name="basement_to_base_top" />
+        <joint name="base_top_to_motor1" />
+        <joint name="motor1_to_base_turn_table" />
+        <joint name="base_turn_table_to_motor2" />
+        <joint name="motor2_to_arm1" />
+        <joint name="arm1_to_motor3" />
+        <joint name="motor3_to_arm2" />
+        <joint name="arm2_to_motor4" />
+        <joint name="motor4_to_wrist" />
+        <joint name="wrist_to_motor5" />
+        <joint name="motor5_to_wrist_rotate" />
+    </group>
+    <group name="hand">
+        <joint name="wrist_rotate_to_motor6" />
+    </group>
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="start" group="arm">
+        <joint name="motor1_to_base_turn_table" value="0" />
+        <joint name="motor2_to_arm1" value="0" />
+        <joint name="motor3_to_arm2" value="0" />
+        <joint name="motor4_to_wrist" value="0" />
+        <joint name="motor5_to_wrist_rotate" value="0" />
+    </group_state>
+    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
+    <end_effector name="hand" parent_link="wrist_rotate" group="hand" parent_group="arm" />
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="virtual_joint" type="fixed" parent_frame="map" child_link="base_turn_table_basement" />
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="arm1" link2="motor2" reason="Adjacent" />
+    <disable_collisions link1="arm1" link2="motor3" reason="Adjacent" />
+    <disable_collisions link1="arm2" link2="motor3" reason="Adjacent" />
+    <disable_collisions link1="arm2" link2="motor4" reason="Adjacent" />
+    <disable_collisions link1="base_turn_table" link2="base_turn_table_basement" reason="Never" />
+    <disable_collisions link1="base_turn_table" link2="base_turn_table_top" reason="Never" />
+    <disable_collisions link1="base_turn_table" link2="motor1" reason="Adjacent" />
+    <disable_collisions link1="base_turn_table" link2="motor2" reason="Adjacent" />
+    <disable_collisions link1="base_turn_table" link2="motor3" reason="Never" />
+    <disable_collisions link1="base_turn_table_basement" link2="base_turn_table_top" reason="Adjacent" />
+    <disable_collisions link1="base_turn_table_basement" link2="motor1" reason="Never" />
+    <disable_collisions link1="base_turn_table_basement" link2="motor2" reason="Never" />
+    <disable_collisions link1="base_turn_table_top" link2="motor1" reason="Adjacent" />
+    <disable_collisions link1="base_turn_table_top" link2="motor2" reason="Never" />
+    <disable_collisions link1="motor1" link2="motor2" reason="Never" />
+    <disable_collisions link1="motor2" link2="motor3" reason="Never" />
+    <disable_collisions link1="motor3" link2="motor4" reason="Never" />
+    <disable_collisions link1="motor3" link2="motor5" reason="Never" />
+    <disable_collisions link1="motor3" link2="wrist" reason="Never" />
+    <disable_collisions link1="motor4" link2="motor6" reason="Never" />
+    <disable_collisions link1="motor4" link2="wrist" reason="Adjacent" />
+    <disable_collisions link1="motor4" link2="wrist_rotate" reason="Never" />
+    <disable_collisions link1="motor5" link2="motor6" reason="Never" />
+    <disable_collisions link1="motor5" link2="wrist" reason="Adjacent" />
+    <disable_collisions link1="motor5" link2="wrist_rotate" reason="Adjacent" />
+    <disable_collisions link1="motor6" link2="wrist" reason="Never" />
+    <disable_collisions link1="motor6" link2="wrist_rotate" reason="Adjacent" />
+    <disable_collisions link1="wrist" link2="wrist_rotate" reason="Never" />
+</robot>

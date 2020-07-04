@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: armbot_description
+    relative_path: urdf/base.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/armbot.srdf
+  CONFIG:
+    author_name: Vlad Mironov
+    author_email: vladislav.mironov@gmail.com
+    generated_timestamp: 1593349535
