@@ -67,14 +67,14 @@ set(armbot_moveit_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(armbot_moveit_config_SOURCE_PREFIX /home/vlad/catkin_ws/src/armbot_moveit_config)
-  set(armbot_moveit_config_DEVEL_PREFIX /home/vlad/catkin_ws/devel)
+  set(armbot_moveit_config_SOURCE_PREFIX /home/vlad/armbot/catkin_ws/src/armbot_moveit_config)
+  set(armbot_moveit_config_DEVEL_PREFIX /home/vlad/armbot/catkin_ws/devel)
   set(armbot_moveit_config_INSTALL_PREFIX "")
   set(armbot_moveit_config_PREFIX ${armbot_moveit_config_DEVEL_PREFIX})
 else()
   set(armbot_moveit_config_SOURCE_PREFIX "")
   set(armbot_moveit_config_DEVEL_PREFIX "")
-  set(armbot_moveit_config_INSTALL_PREFIX /home/vlad/catkin_ws/install)
+  set(armbot_moveit_config_INSTALL_PREFIX /home/vlad/armbot/catkin_ws/install)
   set(armbot_moveit_config_PREFIX ${armbot_moveit_config_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vlad/catkin_ws/install/lib;/home/vlad/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/vlad/armbot/catkin_ws/install/lib;/home/vlad/armbot/catkin_ws/devel/lib;/home/vlad/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

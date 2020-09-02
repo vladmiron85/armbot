@@ -1,8 +1,8 @@
-# Install script for directory: /home/vlad/catkin_ws/src/learning_tf
+# Install script for directory: /home/vlad/armbot/catkin_ws/src/learning_tf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vlad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vlad/armbot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tf.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tf.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf/cmake" TYPE FILE FILES
-    "/home/vlad/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tfConfig.cmake"
-    "/home/vlad/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tfConfig-version.cmake"
+    "/home/vlad/armbot/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tfConfig.cmake"
+    "/home/vlad/armbot/catkin_ws/build/learning_tf/catkin_generated/installspace/learning_tfConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf" TYPE FILE FILES "/home/vlad/catkin_ws/src/learning_tf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/learning_tf" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/src/learning_tf/package.xml")
 endif()
 

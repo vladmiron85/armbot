@@ -1,2 +1,2 @@
 armbot_description:armbot_moveit_config:learning_tf
--DCATKIN_DEVEL_PREFIX=/home/vlad/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vlad/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/vlad/armbot/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vlad/armbot/catkin_ws/install -G Unix Makefiles

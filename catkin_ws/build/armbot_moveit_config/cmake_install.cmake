@@ -1,8 +1,8 @@
-# Install script for directory: /home/vlad/catkin_ws/src/armbot_moveit_config
+# Install script for directory: /home/vlad/armbot/catkin_ws/src/armbot_moveit_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vlad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vlad/armbot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_config.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_config.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config/cmake" TYPE FILE FILES
-    "/home/vlad/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_configConfig.cmake"
-    "/home/vlad/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_configConfig-version.cmake"
+    "/home/vlad/armbot/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_configConfig.cmake"
+    "/home/vlad/armbot/catkin_ws/build/armbot_moveit_config/catkin_generated/installspace/armbot_moveit_configConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE FILE FILES "/home/vlad/catkin_ws/src/armbot_moveit_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/src/armbot_moveit_config/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE DIRECTORY FILES "/home/vlad/catkin_ws/src/armbot_moveit_config/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE DIRECTORY FILES "/home/vlad/armbot/catkin_ws/src/armbot_moveit_config/launch" REGEX "/setup\\_assistant\\.launch$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE DIRECTORY FILES "/home/vlad/catkin_ws/src/armbot_moveit_config/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_moveit_config" TYPE DIRECTORY FILES "/home/vlad/armbot/catkin_ws/src/armbot_moveit_config/config")
 endif()
 

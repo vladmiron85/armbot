@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/vlad/catkin_ws/build"
+export PWD="/home/vlad/armbot/catkin_ws/build"

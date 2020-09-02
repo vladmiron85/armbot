@@ -1,4 +1,4 @@
-prefix=/home/vlad/catkin_ws/install
+prefix=/home/vlad/armbot/catkin_ws/install
 
 Name: learning_tf
 Description: Description of learning_tf

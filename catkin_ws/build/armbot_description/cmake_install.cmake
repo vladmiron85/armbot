@@ -1,8 +1,8 @@
-# Install script for directory: /home/vlad/catkin_ws/src/armbot_description
+# Install script for directory: /home/vlad/armbot/catkin_ws/src/armbot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vlad/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vlad/armbot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_description/cmake" TYPE FILE FILES
-    "/home/vlad/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_descriptionConfig.cmake"
-    "/home/vlad/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_descriptionConfig-version.cmake"
+    "/home/vlad/armbot/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_descriptionConfig.cmake"
+    "/home/vlad/armbot/catkin_ws/build/armbot_description/catkin_generated/installspace/armbot_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_description" TYPE FILE FILES "/home/vlad/catkin_ws/src/armbot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/armbot_description" TYPE FILE FILES "/home/vlad/armbot/catkin_ws/src/armbot_description/package.xml")
 endif()
 

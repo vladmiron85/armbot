@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlad/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vlad/armbot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlad/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vlad/armbot/catkin_ws/build
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build: action
 .PHONY : learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 
 learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/vlad/catkin_ws/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/vlad/armbot/catkin_ws/build/learning_tf && $(CMAKE_COMMAND) -P CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/vlad/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/catkin_ws/src /home/vlad/catkin_ws/src/learning_tf /home/vlad/catkin_ws/build /home/vlad/catkin_ws/build/learning_tf /home/vlad/catkin_ws/build/learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vlad/armbot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/armbot/catkin_ws/src /home/vlad/armbot/catkin_ws/src/learning_tf /home/vlad/armbot/catkin_ws/build /home/vlad/armbot/catkin_ws/build/learning_tf /home/vlad/armbot/catkin_ws/build/learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : learning_tf/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

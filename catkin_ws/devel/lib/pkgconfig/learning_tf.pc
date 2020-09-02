@@ -1,4 +1,4 @@
-prefix=/home/vlad/catkin_ws/devel
+prefix=/home/vlad/armbot/catkin_ws/devel
 
 Name: learning_tf
 Description: Description of learning_tf

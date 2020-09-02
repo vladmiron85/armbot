@@ -1,4 +1,4 @@
-prefix=/home/vlad/catkin_ws/install
+prefix=/home/vlad/armbot/catkin_ws/install
 
 Name: armbot_moveit_config
 Description: Description of armbot_moveit_config

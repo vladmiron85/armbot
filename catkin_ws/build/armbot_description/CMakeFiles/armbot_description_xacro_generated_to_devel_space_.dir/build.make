@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlad/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vlad/armbot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlad/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vlad/armbot/catkin_ws/build
 
 # Utility rule file for armbot_description_xacro_generated_to_devel_space_.
 
@@ -63,10 +63,10 @@ armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_
 .PHONY : armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/build
 
 armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/clean:
-	cd /home/vlad/catkin_ws/build/armbot_description && $(CMAKE_COMMAND) -P CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
+	cd /home/vlad/armbot/catkin_ws/build/armbot_description && $(CMAKE_COMMAND) -P CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/cmake_clean.cmake
 .PHONY : armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/clean
 
 armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/depend:
-	cd /home/vlad/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/catkin_ws/src /home/vlad/catkin_ws/src/armbot_description /home/vlad/catkin_ws/build /home/vlad/catkin_ws/build/armbot_description /home/vlad/catkin_ws/build/armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vlad/armbot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/armbot/catkin_ws/src /home/vlad/armbot/catkin_ws/src/armbot_description /home/vlad/armbot/catkin_ws/build /home/vlad/armbot/catkin_ws/build/armbot_description /home/vlad/armbot/catkin_ws/build/armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : armbot_description/CMakeFiles/armbot_description_xacro_generated_to_devel_space_.dir/depend
 

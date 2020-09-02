@@ -67,14 +67,14 @@ set(learning_tf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(learning_tf_SOURCE_PREFIX /home/vlad/catkin_ws/src/learning_tf)
-  set(learning_tf_DEVEL_PREFIX /home/vlad/catkin_ws/devel)
+  set(learning_tf_SOURCE_PREFIX /home/vlad/armbot/catkin_ws/src/learning_tf)
+  set(learning_tf_DEVEL_PREFIX /home/vlad/armbot/catkin_ws/devel)
   set(learning_tf_INSTALL_PREFIX "")
   set(learning_tf_PREFIX ${learning_tf_DEVEL_PREFIX})
 else()
   set(learning_tf_SOURCE_PREFIX "")
   set(learning_tf_DEVEL_PREFIX "")
-  set(learning_tf_INSTALL_PREFIX /home/vlad/catkin_ws/install)
+  set(learning_tf_INSTALL_PREFIX /home/vlad/armbot/catkin_ws/install)
   set(learning_tf_PREFIX ${learning_tf_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/vlad/catkin_ws/install/lib;/home/vlad/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/vlad/armbot/catkin_ws/install/lib;/home/vlad/armbot/catkin_ws/devel/lib;/home/vlad/catkin_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

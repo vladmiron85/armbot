@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlad/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vlad/armbot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlad/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vlad/armbot/catkin_ws/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin
 .PHONY : armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/vlad/catkin_ws/build/armbot_moveit_config && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/vlad/armbot/catkin_ws/build/armbot_moveit_config && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/vlad/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/catkin_ws/src /home/vlad/catkin_ws/src/armbot_moveit_config /home/vlad/catkin_ws/build /home/vlad/catkin_ws/build/armbot_moveit_config /home/vlad/catkin_ws/build/armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vlad/armbot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlad/armbot/catkin_ws/src /home/vlad/armbot/catkin_ws/src/armbot_moveit_config /home/vlad/armbot/catkin_ws/build /home/vlad/armbot/catkin_ws/build/armbot_moveit_config /home/vlad/armbot/catkin_ws/build/armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : armbot_moveit_config/CMakeFiles/_catkin_empty_exported_target.dir/depend
 
