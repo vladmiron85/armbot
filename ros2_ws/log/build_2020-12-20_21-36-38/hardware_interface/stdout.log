@@ -1,0 +1,107 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found control_msgs: 2.4.1 (/opt/ros/foxy/share/control_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tinyxml2_vendor: 0.7.3 (/home/vlad/ros2_foxy/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake)
+-- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/home/vlad/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/vlad/ros2_ws/src/ros2_control/hardware_interface/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/hardware_interface
+[35m[1mScanning dependencies of target hardware_interface[0m
+[  8%] Built target gmock
+[ 14%] Built target component_parser
+[ 17%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/actuator_hardware.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/joint_command_handle.cpp.o[0m
+[ 26%] Built target gmock_main
+[ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/operation_mode_handle.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/joint_state_handle.cpp.o[0m
+[ 41%] Built target components
+[ 44%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/system_hardware.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor_hardware.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/robot_hardware.cpp.o[0m
+[ 55%] Built target test_macros
+[ 61%] Built target test_component_parser
+[ 64%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[ 64%] Built target hardware_interface
+[ 70%] [32m[1mLinking CXX executable test_register_actuators[0m
+[ 73%] [32m[1mLinking CXX executable test_robot_hardware_interfaces[0m
+[ 73%] [32m[1mLinking CXX executable test_actuator_handle[0m
+[ 76%] [32m[1mLinking CXX executable test_register_joints[0m
+[ 79%] [32m[1mLinking CXX executable test_joint_handle[0m
+[ 82%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[ 85%] Built target test_actuator_handle
+[ 88%] Built target test_joint_handle
+[ 91%] Built target test_component_interfaces
+[ 94%] Built target test_robot_hardware_interfaces
+[ 97%] Built target test_register_joints
+[100%] Built target test_register_actuators
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/joint_state_handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/actuator_hardware.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/robot_hardware_interface.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/system_hardware_interface.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/actuator_hardware_interface.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/robot_hardware.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/types
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/control_type.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/joint_handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/components
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/components/sensor.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/components/component_info.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/components/joint.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/sensor_hardware_interface.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/operation_mode_handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/joint_command_handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/system_hardware.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/sensor_hardware.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/include/hardware_interface/actuator_handle.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/lib/libcomponent_parser.a
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/lib/libcomponents.so
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/lib/libhardware_interface.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/hardware_interface/lib/libhardware_interface.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/package.xml

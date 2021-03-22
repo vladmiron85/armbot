@@ -1,0 +1,47 @@
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 39%] Built target geometric_shapes
+[ 45%] Built target test_basics
+[ 51%] Built target test_point_inclusion
+[ 57%] Built target test_bounding_box
+[ 63%] Built target test_loaded_meshes
+[ 69%] Built target test_bounding_sphere
+[ 75%] Built target test_create_mesh
+[ 81%] Built target test_bounding_cylinder
+[ 87%] Built target test_ray_intersection
+[ 93%] Built target test_shapes
+[100%] Built target test_body_operations
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/aabb.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_extents.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/body_operations.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_to_marker.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/mesh_operations.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_messages.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/check_isometry.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/solid_primitive_dims.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/bodies.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shapes.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_operations.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/lib/libgeometric_shapes.so.2.0.0
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/lib/libgeometric_shapes.so
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/package_run_dependencies/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/parent_prefix_path/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/packages/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/package.xml

@@ -1,0 +1,26 @@
+running egg_info
+creating ../build/tfpose_ros2/tf_pose.egg-info
+writing ../build/tfpose_ros2/tf_pose.egg-info/PKG-INFO
+writing dependency_links to ../build/tfpose_ros2/tf_pose.egg-info/dependency_links.txt
+writing requirements to ../build/tfpose_ros2/tf_pose.egg-info/requires.txt
+writing top-level names to ../build/tfpose_ros2/tf_pose.egg-info/top_level.txt
+writing manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+reading manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+writing manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+copying models/__init__.py -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+copying models/graph/cmu/graph_opt.pb -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+copying models/graph/mobilenet_thin/graph_opt.pb -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+running build_ext
+building '_pafprocess' extension
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose
+creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess
+x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tf_pose/pafprocess/pafprocess_wrap.cpp -o /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess/pafprocess_wrap.o

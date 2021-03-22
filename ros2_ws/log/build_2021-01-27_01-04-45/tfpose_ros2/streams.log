@@ -1,0 +1,34 @@
+[2.724s] Invoking command in '/home/vlad/ros2_ws/src/tfpose_ros2': AMENT_PREFIX_PATH=/home/vlad/ros2_ws/install/pose_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vlad/ros2_ws/install/pose_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vlad/ros2_ws/install/pose_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed
+[4.332s] --2021-01-27 01:04:50--  http://download758.mediafire.com/udqp7t9w0t2g/qlzzr20mpocnpa3/graph_opt.pb
+[4.348s] Resolving download758.mediafire.com (download758.mediafire.com)... 205.196.120.206
+[4.513s] Connecting to download758.mediafire.com (download758.mediafire.com)|205.196.120.206|:80... connected.
+[4.991s] HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[4.991s] 
+[4.991s]     The file is already fully retrieved; nothing to do.
+[4.991s] 
+[5.021s] running egg_info
+[5.021s] writing ../../build/tfpose_ros2/tfpose_ros2.egg-info/PKG-INFO
+[5.022s] writing dependency_links to ../../build/tfpose_ros2/tfpose_ros2.egg-info/dependency_links.txt
+[5.022s] writing entry points to ../../build/tfpose_ros2/tfpose_ros2.egg-info/entry_points.txt
+[5.022s] writing top-level names to ../../build/tfpose_ros2/tfpose_ros2.egg-info/top_level.txt
+[5.054s] file pafprocess.py (for module pafprocess) not found
+[5.113s] reading manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+[5.114s] writing manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+[5.115s] running build
+[5.115s] running build_py
+[5.115s] file pafprocess.py (for module pafprocess) not found
+[5.115s] copying tfpose_ros2/node_get_pose_service.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[5.116s] file pafprocess.py (for module pafprocess) not found
+[5.117s] running build_ext
+[5.118s] running install
+[5.118s] running install_lib
+[5.119s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/node_get_pose_service.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[5.122s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/node_get_pose_service.py to node_get_pose_service.cpython-38.pyc
+[5.123s] running install_egg_info
+[5.126s] removing '/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info' (and everything under it)
+[5.126s] Copying ../../build/tfpose_ros2/tfpose_ros2.egg-info to /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info
+[5.127s] running install_scripts
+[5.150s] Installing get_pose_service script to /home/vlad/ros2_ws/install/tfpose_ros2/lib/tfpose_ros2
+[5.150s] file pafprocess.py (for module pafprocess) not found
+[5.151s] writing list of installed files to '/home/vlad/ros2_ws/build/tfpose_ros2/install.log'
+[5.183s] Invoked command in '/home/vlad/ros2_ws/src/tfpose_ros2' returned '0': AMENT_PREFIX_PATH=/home/vlad/ros2_ws/install/pose_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vlad/ros2_ws/install/pose_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vlad/ros2_ws/install/pose_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed

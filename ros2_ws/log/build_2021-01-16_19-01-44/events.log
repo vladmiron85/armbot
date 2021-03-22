@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000107] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000138] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000172] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000202] (-) JobUnselected: {'identifier': 'fake_joint_driver'}
+[0.000397] (-) JobUnselected: {'identifier': 'geometric_shapes'}
+[0.000548] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000766] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.000802] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000823] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000848] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000865] (-) JobUnselected: {'identifier': 'moveit_fake_controller_manager'}
+[0.000887] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.001329] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.001548] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.001593] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.001684] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.001728] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.001766] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.001793] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.001832] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.001859] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.001885] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.001911] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.001937] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.001971] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.001997] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.002023] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.002048] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.002074] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.002100] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.002126] (-) JobUnselected: {'identifier': 'realsense_examples'}
+[0.002151] (-) JobUnselected: {'identifier': 'realsense_msgs'}
+[0.002177] (-) JobUnselected: {'identifier': 'realsense_node'}
+[0.002203] (-) JobUnselected: {'identifier': 'realsense_ros'}
+[0.002228] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.002254] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.002280] (-) JobUnselected: {'identifier': 'run_move_group'}
+[0.002305] (-) JobUnselected: {'identifier': 'run_moveit_cpp'}
+[0.002331] (-) JobUnselected: {'identifier': 'srdfdom'}
+[0.002356] (-) JobUnselected: {'identifier': 'test_robot_hardware'}
+[0.002390] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.002416] (-) JobUnselected: {'identifier': 'warehouse_ros'}
+[0.002450] (-) JobUnselected: {'identifier': 'warehouse_ros_mongo'}
+[0.002478] (tfpose_ros2) JobQueued: {'identifier': 'tfpose_ros2', 'dependencies': OrderedDict()}
+[0.002508] (tfpose_ros2) JobStarted: {'identifier': 'tfpose_ros2'}
+[0.099757] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300273] (-) TimerEvent: {}
+[0.400482] (-) TimerEvent: {}
+[0.500725] (-) TimerEvent: {}
+[0.600939] (-) TimerEvent: {}
+[0.701234] (-) TimerEvent: {}
+[0.801617] (-) TimerEvent: {}
+[0.902161] (-) TimerEvent: {}
+[1.002751] (-) TimerEvent: {}
+[1.103337] (-) TimerEvent: {}
+[1.203921] (-) TimerEvent: {}
+[1.304544] (-) TimerEvent: {}
+[1.405150] (-) TimerEvent: {}
+[1.505775] (-) TimerEvent: {}
+[1.606360] (-) TimerEvent: {}
+[1.706871] (-) TimerEvent: {}
+[1.807472] (-) TimerEvent: {}
+[1.908104] (-) TimerEvent: {}
+[2.008681] (-) TimerEvent: {}
+[2.109249] (-) TimerEvent: {}
+[2.209867] (-) TimerEvent: {}
+[2.310393] (-) TimerEvent: {}
+[2.365595] (tfpose_ros2) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_identification/ros.py", line 129, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 281, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.8/subprocess.py", line 512, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', "import sys;from setuptools.extern.packaging.specifiers import SpecifierSet;from distutils.core import run_setup;dist = run_setup(    \'setup.py\', script_args=(\'--dry-run\',), stop_after=\'config\');skip_keys = (\'cmdclass\', \'distclass\', \'ext_modules\', \'metadata\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\'_\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\'metadata\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\'license_files\', \'provides_extras\')};sys.stdout.buffer.write(repr(data).encode(\'utf-8\'))"]\' returned non-zero exit status 1.\n'}
+[2.366034] (tfpose_ros2) JobEnded: {'identifier': 'tfpose_ros2', 'rc': 1}
+[2.376460] (-) EventReactorShutdown: {}

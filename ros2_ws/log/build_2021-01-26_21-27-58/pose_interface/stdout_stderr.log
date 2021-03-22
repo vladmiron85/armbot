@@ -1,0 +1,98 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.0 (/home/vlad/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_ros: 0.9.0 (/home/vlad/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/pose_interface
+[  5%] Built target pose_interface__cpp
+[  5%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c.o[0m
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__struct.h:41[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.h:19[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c:4[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.h: No such file or directory
+   24 | #include [01;31m[K"pose_interface/msg/detail/header__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__functions.h:19[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c:4[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.h: No such file or directory
+   24 | #include [01;31m[K"pose_interface/msg/detail/header__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pose_interface__rosidl_generator_c.dir/build.make:166: CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pose_interface__rosidl_generator_c.dir/build.make:179: CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/pose_interface__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp.o[0m
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp:12[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/build.make:138: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp:7[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp:7[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/build.make:111: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/build.make:124: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp:12[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp:4[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/build.make:125: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp.o] Error 1
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:138: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:278: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/persons__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp:4[m[K:
+[01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+   21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:125: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

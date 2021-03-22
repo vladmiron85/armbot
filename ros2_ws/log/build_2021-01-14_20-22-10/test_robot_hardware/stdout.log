@@ -1,0 +1,28 @@
+[ 25%] Built target gtest_main
+[ 50%] Built target gtest
+[ 75%] Built target test_robot_hardware
+[100%] Built target test_robot_hardware_interface
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/include
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/include/test_robot_hardware
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/include/test_robot_hardware/visibility_control.h
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/include/test_robot_hardware/test_robot_hardware.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/lib/libtest_robot_hardware.so
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/environment/library_path.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/ament_index/resource_index/package_run_dependencies/test_robot_hardware
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/ament_index/resource_index/parent_prefix_path/test_robot_hardware
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/ament_index/resource_index/packages/test_robot_hardware
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake/test_robot_hardwareConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake/test_robot_hardwareConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/package.xml

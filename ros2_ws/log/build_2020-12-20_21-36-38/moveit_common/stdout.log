@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_common
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Installing: /home/vlad/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Installing: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

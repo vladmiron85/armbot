@@ -1,0 +1,61 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found hardware_interface: 0.0.0 (/home/vlad/ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_gmock: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/home/vlad/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/vlad/ros2_ws/src/ros2_control/transmission_interface/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/transmission_interface
+[35m[1mScanning dependencies of target transmission_parser[0m
+[ 22%] Built target gmock_main
+[ 33%] [32mBuilding CXX object CMakeFiles/transmission_parser.dir/src/transmission_parser.cpp.o[0m
+[ 66%] Built target gmock
+[ 77%] [32m[1mLinking CXX shared library libtransmission_parser.so[0m
+[ 77%] Built target transmission_parser
+[35m[1mScanning dependencies of target test_transmission_parser[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/test_transmission_parser.dir/test/test_transmission_parser.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_transmission_parser[0m
+[100%] Built target test_transmission_parser
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/include/transmission_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_info.hpp
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/lib/libtransmission_parser.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/transmission_interface/lib/libtransmission_parser.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/transmission_interface/share/transmission_interface/package.xml

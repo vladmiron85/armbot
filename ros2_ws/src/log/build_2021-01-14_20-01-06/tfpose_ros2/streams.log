@@ -1,0 +1,42 @@
+[550.912s] Invoking command in '/home/vlad/ros2_ws/src/tfpose_ros2': PYTHONPATH=/home/vlad/ros2_ws/src/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/src/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/src/install/tfpose_ros2 --record /home/vlad/ros2_ws/src/build/tfpose_ros2/install.log --single-version-externally-managed
+[561.751s] running egg_info
+[561.752s] creating ../build/tfpose_ros2/tf_pose.egg-info
+[561.752s] writing ../build/tfpose_ros2/tf_pose.egg-info/PKG-INFO
+[561.752s] writing dependency_links to ../build/tfpose_ros2/tf_pose.egg-info/dependency_links.txt
+[561.752s] writing requirements to ../build/tfpose_ros2/tf_pose.egg-info/requires.txt
+[561.753s] writing top-level names to ../build/tfpose_ros2/tf_pose.egg-info/top_level.txt
+[561.753s] writing manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[561.753s] reading manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[561.753s] writing manifest file '../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[561.753s] running build
+[561.753s] running build_py
+[561.753s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build
+[561.753s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8
+[561.753s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+[561.754s] copying models/__init__.py -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+[561.754s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph
+[561.754s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+[561.754s] copying models/graph/cmu/graph_opt.pb -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+[561.754s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+[561.754s] copying models/graph/mobilenet_thin/graph_opt.pb -> /home/vlad/ros2_ws/src/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+[561.754s] running build_ext
+[561.754s] building '_pafprocess' extension
+[561.755s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8
+[561.755s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose
+[561.755s] creating /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess
+[561.755s] x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tf_pose/pafprocess/pafprocess_wrap.cpp -o /home/vlad/ros2_ws/src/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess/pafprocess_wrap.o
+[561.757s] --2021-01-14 20:10:28--  http://download1412.mediafire.com/7vfz4bkxekyg/qlzzr20mpocnpa3/graph_opt.pb
+[561.757s] Resolving download1412.mediafire.com (download1412.mediafire.com)... 205.196.123.100
+[561.757s] Connecting to download1412.mediafire.com (download1412.mediafire.com)|205.196.123.100|:80... connected.
+[561.757s] HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[561.757s] 
+[561.757s]     The file is already fully retrieved; nothing to do.
+[561.757s] 
+[561.758s] file pafprocess.py (for module pafprocess) not found
+[561.758s] file pafprocess.py (for module pafprocess) not found
+[561.758s] file pafprocess.py (for module pafprocess) not found
+[561.758s] [01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kerror: [m[Ktf_pose/pafprocess/pafprocess_wrap.cpp: No such file or directory
+[561.758s] [01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+[561.758s] compilation terminated.
+[561.758s] error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+[561.796s] Invoked command in '/home/vlad/ros2_ws/src/tfpose_ros2' returned '1': PYTHONPATH=/home/vlad/ros2_ws/src/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/src/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/src/install/tfpose_ros2 --record /home/vlad/ros2_ws/src/build/tfpose_ros2/install.log --single-version-externally-managed

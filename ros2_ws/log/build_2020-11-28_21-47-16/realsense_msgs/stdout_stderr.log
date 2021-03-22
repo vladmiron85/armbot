@@ -1,0 +1,181 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.0 (/home/vlad/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/vlad/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/std_msgs/share/std_msgs/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+-- Found ament_cmake_cppcheck: 0.9.5 (/home/vlad/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.5 (/home/vlad/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.9.5 (/home/vlad/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.9.0 (/home/vlad/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_cmake_flake8: 0.9.5 (/home/vlad/ros2_foxy/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.9.5 (/home/vlad/ros2_foxy/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/realsense_msgs
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target realsense_msgs__cpp[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_generator_c[0m
+[  9%] [32mBuilding C object CMakeFiles/realsense_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense_msgs/msg/detail/imu_info__functions.c.o[0m
+[  9%] Built target realsense_msgs__cpp
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 22%] [32m[1mLinking C shared library librealsense_msgs__rosidl_generator_c.so[0m
+[ 22%] Built target realsense_msgs__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/realsense_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense_msgs/msg/imu_info__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/realsense_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_c[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/realsense_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense_msgs/msg/imu_info__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_introspection_c[0m
+[ 45%] [32m[1mLinking CXX shared library librealsense_msgs__rosidl_typesupport_c.so[0m
+[ 48%] [32mBuilding C object CMakeFiles/realsense_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense_msgs/msg/detail/imu_info__type_support.c.o[0m
+[ 51%] [32m[1mLinking C shared library librealsense_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 51%] Built target realsense_msgs__rosidl_typesupport_c
+[ 51%] Built target realsense_msgs__rosidl_typesupport_introspection_c
+[ 54%] [32m[1mLinking CXX shared library librealsense_msgs__rosidl_typesupport_cpp.so[0m
+[ 58%] [32m[1mLinking CXX shared library librealsense_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 58%] Built target realsense_msgs__rosidl_typesupport_cpp
+[ 58%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp
+[ 61%] [32m[1mLinking CXX shared library librealsense_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 61%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp
+[ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/realsense_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library librealsense_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target realsense_msgs[0m
+[ 70%] Built target realsense_msgs
+[35m[1mScanning dependencies of target realsense_msgs__py[0m
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target realsense_msgs__py
+[35m[1mScanning dependencies of target realsense_msgs__python[0m
+[ 77%] [32mBuilding C object CMakeFiles/realsense_msgs__python.dir/rosidl_generator_py/realsense_msgs/msg/_imu_info_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/realsense_msgs/librealsense_msgs__python.so[0m
+[ 80%] Built target realsense_msgs__python
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/realsense_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense_msgs/_realsense_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/realsense_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense_msgs/_realsense_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/realsense_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense_msgs/_realsense_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/realsense_msgs/realsense_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/realsense_msgs/realsense_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/realsense_msgs/realsense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target realsense_msgs__rosidl_typesupport_c__pyext
+[100%] Built target realsense_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_msgs
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__functions.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__type_support.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/library_path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/library_path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__builder.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__struct.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__traits.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/__init__.py
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/msg/__init__.py
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/msg/_imu_info.py
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__python.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.idl
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.msg
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_msgs
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_msgs
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.bash
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.zsh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/package.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/packages/realsense_msgs
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig-version.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/package.xml
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/vlad/ros2_ws/install/realsense_msgs/lib/python3.8/site-packages/realsense_msgs/__init__.py'...
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/vlad/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgs__rosidl_typesupport_cppExport-noconfig.cmake

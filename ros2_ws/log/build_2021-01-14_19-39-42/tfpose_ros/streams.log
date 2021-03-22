@@ -1,0 +1,35 @@
+[0.162s] Invoking command in '/home/vlad/ros2_ws/build/tfpose_ros': /usr/bin/cmake /home/vlad/ros2_ws/src/tf-pose-estimation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/install/tfpose_ros
+[0.322s] -- The C compiler identification is GNU 9.3.0
+[0.502s] -- The CXX compiler identification is GNU 9.3.0
+[0.534s] -- Check for working C compiler: /usr/bin/cc
+[0.712s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.714s] -- Detecting C compiler ABI info
+[0.850s] -- Detecting C compiler ABI info - done
+[0.877s] -- Detecting C compile features
+[0.877s] -- Detecting C compile features - done
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++
+[1.088s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.090s] -- Detecting CXX compiler ABI info
+[1.286s] -- Detecting CXX compiler ABI info - done
+[1.302s] -- Detecting CXX compile features
+[1.303s] -- Detecting CXX compile features - done
+[1.343s] CMake Error at CMakeLists.txt:7 (find_package):
+[1.345s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.346s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.346s]   CMake did not find one.
+[1.348s] 
+[1.348s]   Could not find a package configuration file provided by "catkin" with any
+[1.349s]   of the following names:
+[1.349s] 
+[1.349s]     catkinConfig.cmake
+[1.349s]     catkin-config.cmake
+[1.349s] 
+[1.349s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.349s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.349s]   provides a separate development package or SDK, be sure it has been
+[1.349s]   installed.
+[1.349s] 
+[1.349s] 
+[1.350s] -- Configuring incomplete, errors occurred!
+[1.350s] See also "/home/vlad/ros2_ws/build/tfpose_ros/CMakeFiles/CMakeOutput.log".
+[1.354s] Invoked command in '/home/vlad/ros2_ws/build/tfpose_ros' returned '1': /usr/bin/cmake /home/vlad/ros2_ws/src/tf-pose-estimation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/install/tfpose_ros

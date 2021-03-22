@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/tfpose_ros2/tfpose_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/tfpose_ros2/tfpose_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/tfpose_ros2/tfpose_ros2.egg-info/entry_points.txt
+writing top-level names to ../../build/tfpose_ros2/tfpose_ros2.egg-info/top_level.txt
+reading manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tfpose_ros2/node_get_pose_service.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+running build_ext
+running install
+running install_lib
+copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/node_get_pose_service.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/node_get_pose_service.py to node_get_pose_service.cpython-38.pyc
+running install_egg_info
+removing '/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info' (and everything under it)
+Copying ../../build/tfpose_ros2/tfpose_ros2.egg-info to /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info
+running install_scripts
+Installing get_pose_service script to /home/vlad/ros2_ws/install/tfpose_ros2/lib/tfpose_ros2
+writing list of installed files to '/home/vlad/ros2_ws/build/tfpose_ros2/install.log'

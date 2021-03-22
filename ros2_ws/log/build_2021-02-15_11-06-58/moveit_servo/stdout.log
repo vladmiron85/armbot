@@ -1,0 +1,131 @@
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found std_srvs: 2.0.3 (/home/vlad/ros2_foxy/install/std_srvs/share/std_srvs/cmake)
+-- Found sensor_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found control_msgs: 2.4.1 (/opt/ros/foxy/share/control_msgs/cmake)
+-- Found control_toolbox: 2.0.1 (/opt/ros/foxy/share/control_toolbox/cmake)
+-- Found moveit_msgs: 2.0.0 (/home/vlad/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+-- Found tf2_eigen: 0.13.7 (/home/vlad/ros2_foxy/install/tf2_eigen/share/tf2_eigen/cmake)
+-- Found moveit_ros_planning: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ros_testing: 0.2.1 (/home/vlad/ros2_foxy/install/ros_testing/share/ros_testing/cmake)
+-- Found launch_testing_ament_cmake: 0.10.3 (/home/vlad/ros2_foxy/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_servo
+[35m[1mScanning dependencies of target test_servo_parameters_node[0m
+[35m[1mScanning dependencies of target servo_controller_input[0m
+[35m[1mScanning dependencies of target moveit_servo[0m
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 18%] Built target fake_command_publisher
+[35m[1mScanning dependencies of target test_servo_collision[0m
+[35m[1mScanning dependencies of target test_servo_singularity[0m
+[35m[1mScanning dependencies of target test_servo_integration[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/test_servo_parameters_node.dir/test/test_servo_parameters_node.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/servo_controller_input.dir/src/teleop_demo/joystick_servo_example.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/test_servo_singularity.dir/test/test_servo_singularity.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/test_servo_collision.dir/test/test_servo_collision.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/test_servo_integration.dir/test/test_servo_interface.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/moveit_servo.dir/src/servo.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_servo.dir/src/servo_calcs.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/moveit_servo.dir/src/collision_check.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/moveit_servo.dir/include/moveit_servo/servo_parameters.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_servo_parameters_node[0m
+[ 50%] Built target test_servo_parameters_node
+[ 53%] [32m[1mLinking CXX shared library libservo_controller_input.so[0m
+[ 53%] Built target servo_controller_input
+[ 56%] [32m[1mLinking CXX executable test_servo_singularity[0m
+[ 56%] Built target test_servo_singularity
+[ 59%] [32m[1mLinking CXX executable test_servo_collision[0m
+[ 59%] Built target test_servo_collision
+[ 62%] [32m[1mLinking CXX executable test_servo_integration[0m
+[ 62%] Built target test_servo_integration
+[ 65%] [32m[1mLinking CXX shared library libmoveit_servo.so[0m
+[ 68%] Built target moveit_servo
+[35m[1mScanning dependencies of target servo_server[0m
+[35m[1mScanning dependencies of target servo_cpp_demo[0m
+[35m[1mScanning dependencies of target test_servo[0m
+[35m[1mScanning dependencies of target test_servo_parameters[0m
+[ 71%] [32m[1mLinking CXX executable test_low_pass_filter[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_servo_parameters.dir/test/test_servo_parameters.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/servo_server.dir/src/servo_server.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_servo.dir/test/unit_test_servo_calcs.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/servo_cpp_demo.dir/src/cpp_interface_demo/servo_cpp_interface_demo.cpp.o[0m
+[ 87%] Built target test_low_pass_filter
+[ 90%] [32m[1mLinking CXX executable test_servo_parameters[0m
+[ 90%] Built target test_servo_parameters
+[ 93%] [32m[1mLinking CXX shared library libservo_server.so[0m
+[ 96%] [32m[1mLinking CXX executable test_servo[0m
+[ 96%] Built target servo_server
+[ 96%] Built target test_servo
+[100%] [32m[1mLinking CXX executable servo_cpp_demo[0m
+[100%] Built target servo_cpp_demo
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/lib/libmoveit_servo.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_servo/lib/libmoveit_servo.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/lib/libmoveit_servo.so
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/lib/libservo_server.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_servo/lib/libservo_server.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/lib/libservo_controller_input.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_servo/lib/libservo_controller_input.so" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/lib/moveit_servo/servo_cpp_demo
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_servo/lib/moveit_servo/servo_cpp_demo" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/lib/moveit_servo/fake_command_publisher
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/status_codes.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/servo.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/servo_parameters.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/pose_tracking.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/servo_calcs.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/servo_server.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/low_pass_filter.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/servo_parameters.cpp
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/make_shared_from_pool.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/include/moveit_servo/collision_check.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/launch
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/launch/servo_teleop.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/launch/pose_tracking_example.launch
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/launch/servo_server_demo.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/launch/servo_cpp_interface_demo.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config/panda_controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config/pose_tracking_settings.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config/demo_rviz_config.rviz
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config/start_positions.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/config/panda_simulated_config.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/ament_index/resource_index/package_run_dependencies/moveit_servo
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/ament_index/resource_index/parent_prefix_path/moveit_servo
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/ament_index/resource_index/packages/moveit_servo
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/ament_index/resource_index/rclcpp_components/moveit_servo
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/cmake/moveit_servoConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_servo/share/moveit_servo/package.xml

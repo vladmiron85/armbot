@@ -1,0 +1,101 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/vlad/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem 
+-- Found tf2_eigen: 0.13.7 (/home/vlad/ros2_foxy/install/tf2_eigen/share/tf2_eigen/cmake)
+-- Found moveit_ros_planning: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found moveit_ros_warehouse: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_ros_benchmarks
+[35m[1mScanning dependencies of target moveit_ros_benchmarks[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkOptions.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_ros_benchmarks.dir/src/BenchmarkExecutor.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libmoveit_ros_benchmarks.so[0m
+[ 42%] Built target moveit_ros_benchmarks
+[35m[1mScanning dependencies of target moveit_run_benchmark[0m
+[35m[1mScanning dependencies of target moveit_combine_predefined_poses_benchmark[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_combine_predefined_poses_benchmark.dir/src/simple_benchmarks/CombinePredefinedPosesBenchmark.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_run_benchmark.dir/src/RunBenchmark.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable moveit_run_benchmark[0m
+[100%] [32m[1mLinking CXX executable moveit_combine_predefined_poses_benchmark[0m
+[100%] Built target moveit_run_benchmark
+[100%] Built target moveit_combine_predefined_poses_benchmark
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/library_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so." to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/libmoveit_ros_benchmarks.so
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_run_benchmark" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_combine_predefined_poses_benchmark" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/include
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/include/moveit
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkOptions.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/include/moveit/benchmarks/BenchmarkExecutor.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/lib/moveit_ros_benchmarks/moveit_benchmark_statistics.py
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.yaml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda.launch.py
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.yaml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo1.yaml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners_obstacles.launch
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_all_planners.launch
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo2.yaml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_fanuc.launch
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_panda_predefined_poses.launch.py
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/demo_obstacles.yaml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/package_run_dependencies/moveit_ros_benchmarks
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/parent_prefix_path/moveit_ros_benchmarks
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/environment/path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.bash
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/ament_index/resource_index/packages/moveit_ros_benchmarks
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/cmake/moveit_ros_benchmarksConfig-version.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_benchmarks/share/moveit_ros_benchmarks/package.xml

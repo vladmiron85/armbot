@@ -1,0 +1,130 @@
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:526:9:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K-Wignored-qualifiers[m[K]
+  526 |         [01;35m[Kconst[m[K int get_data_size() const
+      |         [01;35m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:1020:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1020 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:1042:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1042 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_frame.hpp:1064:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1064 |                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:[m[K In constructor ‘[01m[Krs2::depth_stereo_sensor::depth_stereo_sensor(rs2::sensor)[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:488:54:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::sensor::sensor(const rs2::sensor&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  488 |         depth_stereo_sensor(sensor s): depth_sensor(s[01;35m[K)[m[K
+      |                                                      [01;35m[K^[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:308:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::sensor[m[K’ has user-provided ‘[01m[Krs2::sensor& rs2::sensor::operator=(const rs2::sensor&)[m[K’
+  308 |         sensor& [01;36m[Koperator[m[K=(const sensor& other)
+      |                 [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:459:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krs2::depth_sensor::depth_sensor(rs2::sensor)[m[K’
+  459 |         depth_sensor([01;36m[Ksensor s[m[K)
+      |                      [01;36m[K~~~~~~~^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:[m[K In constructor ‘[01m[Krs2::auto_calibrated_device::auto_calibrated_device(rs2::device)[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:319:34:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  319 |             : calibrated_device(d[01;35m[K)[m[K
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:104:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  104 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:290:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krs2::calibrated_device::calibrated_device(rs2::device)[m[K’
+  290 |         calibrated_device([01;36m[Kdevice d[m[K)
+      |                           [01;36m[K~~~~~~~^[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:[m[K In member function ‘[01m[Krs2::device rs2::device_list::front() const[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:614:59:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  614 |         device front() const { return std::move((*this)[0][01;35m[K)[m[K; }
+      |                                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:104:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  104 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:[m[K In member function ‘[01m[Krs2::device rs2::device_list::back() const[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:617:49:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  617 |             return std::move((*this)[size() - 1][01;35m[K)[m[K;
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:104:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  104 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:[m[K In constructor ‘[01m[Krs2::tm2::tm2(rs2::device)[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:686:34:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::device::device(const rs2::device&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  686 |             : calibrated_device(d[01;35m[K)[m[K
+      |                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:104:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::device[m[K’ has user-provided ‘[01m[Krs2::device& rs2::device::operator=(const rs2::device&)[m[K’
+  104 |         device& [01;36m[Koperator[m[K=(const device& dev)
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:290:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krs2::calibrated_device::calibrated_device(rs2::device)[m[K’
+  290 |         calibrated_device([01;36m[Kdevice d[m[K)
+      |                           [01;36m[K~~~~~~~^[m[K
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:[m[K In member function ‘[01m[Kstd::pair<rs2::sensor, rs2::stream_profile> rs2::tm2::get_sensor_profile(rs2_stream, int)[m[K’:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:797:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Krs2::sensor::sensor(const rs2::sensor&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  797 |             for (auto s : query_sensors([01;35m[K)[m[K) {
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/foxy/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp:21[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_node/src/realsense_node.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/librealsense2/hpp/rs_sensor.hpp:308:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Krs2::sensor[m[K’ has user-provided ‘[01m[Krs2::sensor& rs2::sensor::operator=(const rs2::sensor&)[m[K’
+  308 |         sensor& [01;36m[Koperator[m[K=(const sensor& other)
+      |                 [01;36m[K^~~~~~~~[m[K

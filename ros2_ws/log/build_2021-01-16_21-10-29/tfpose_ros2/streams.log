@@ -1,0 +1,34 @@
+[3.295s] Invoking command in '/home/vlad/ros2_ws/src/tfpose_ros2': PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed
+[4.797s] --2021-01-16 21:10:34--  http://download2268.mediafire.com/nsh1xd83npmg/qlzzr20mpocnpa3/graph_opt.pb
+[4.852s] Resolving download2268.mediafire.com (download2268.mediafire.com)... 199.91.155.9
+[5.044s] Connecting to download2268.mediafire.com (download2268.mediafire.com)|199.91.155.9|:80... connected.
+[5.454s] HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[5.454s] 
+[5.455s]     The file is already fully retrieved; nothing to do.
+[5.455s] 
+[5.514s] running egg_info
+[5.514s] writing ../../build/tfpose_ros2/tfpose_ros2.egg-info/PKG-INFO
+[5.514s] writing dependency_links to ../../build/tfpose_ros2/tfpose_ros2.egg-info/dependency_links.txt
+[5.515s] writing entry points to ../../build/tfpose_ros2/tfpose_ros2.egg-info/entry_points.txt
+[5.515s] writing top-level names to ../../build/tfpose_ros2/tfpose_ros2.egg-info/top_level.txt
+[5.543s] file pafprocess.py (for module pafprocess) not found
+[5.595s] reading manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+[5.596s] writing manifest file '../../build/tfpose_ros2/tfpose_ros2.egg-info/SOURCES.txt'
+[5.597s] running build
+[5.597s] running build_py
+[5.597s] file pafprocess.py (for module pafprocess) not found
+[5.597s] copying tfpose_ros2/node_image_subscriber.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[5.598s] file pafprocess.py (for module pafprocess) not found
+[5.599s] running build_ext
+[5.600s] running install
+[5.600s] running install_lib
+[5.600s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/node_image_subscriber.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[5.603s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/node_image_subscriber.py to node_image_subscriber.cpython-38.pyc
+[5.604s] running install_egg_info
+[5.607s] removing '/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info' (and everything under it)
+[5.607s] Copying ../../build/tfpose_ros2/tfpose_ros2.egg-info to /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2-0.1.1-py3.8.egg-info
+[5.608s] running install_scripts
+[5.627s] Installing image_listener script to /home/vlad/ros2_ws/install/tfpose_ros2/lib/tfpose_ros2
+[5.628s] file pafprocess.py (for module pafprocess) not found
+[5.628s] writing list of installed files to '/home/vlad/ros2_ws/build/tfpose_ros2/install.log'
+[5.656s] Invoked command in '/home/vlad/ros2_ws/src/tfpose_ros2' returned '0': PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed

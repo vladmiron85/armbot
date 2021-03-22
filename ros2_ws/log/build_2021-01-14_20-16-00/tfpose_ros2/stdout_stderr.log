@@ -1,0 +1,40 @@
+--2021-01-14 20:16:07--  http://download758.mediafire.com/wqs9g771we5g/qlzzr20mpocnpa3/graph_opt.pb
+Resolving download758.mediafire.com (download758.mediafire.com)... 205.196.120.206
+Connecting to download758.mediafire.com (download758.mediafire.com)|205.196.120.206|:80... connected.
+HTTP request sent, awaiting response... 416 Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+running egg_info
+creating ../../build/tfpose_ros2/tf_pose.egg-info
+writing ../../build/tfpose_ros2/tf_pose.egg-info/PKG-INFO
+writing dependency_links to ../../build/tfpose_ros2/tf_pose.egg-info/dependency_links.txt
+writing requirements to ../../build/tfpose_ros2/tf_pose.egg-info/requires.txt
+writing top-level names to ../../build/tfpose_ros2/tf_pose.egg-info/top_level.txt
+writing manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+file pafprocess.py (for module pafprocess) not found
+reading manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+writing manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+running build
+running build_py
+file pafprocess.py (for module pafprocess) not found
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+copying models/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+copying models/graph/cmu/graph_opt.pb -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+copying models/graph/mobilenet_thin/graph_opt.pb -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+file pafprocess.py (for module pafprocess) not found
+running build_ext
+building '_pafprocess' extension
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose
+creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess
+x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tf_pose/pafprocess/pafprocess_wrap.cpp -o /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess/pafprocess_wrap.o
+[01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kerror: [m[Ktf_pose/pafprocess/pafprocess_wrap.cpp: No such file or directory
+[01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+error: command 'x86_64-linux-gnu-gcc' failed with exit status 1

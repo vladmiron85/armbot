@@ -1,0 +1,14 @@
+[  0%] Built target moveit_msgs__cpp
+[ 12%] Built target moveit_msgs__rosidl_generator_c
+[ 24%] Built target moveit_msgs__rosidl_typesupport_cpp
+[ 37%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp
+[ 49%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target moveit_msgs__rosidl_typesupport_c
+[ 75%] Built target moveit_msgs__rosidl_typesupport_introspection_c
+[ 88%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c
+[ 88%] Built target moveit_msgs
+[ 88%] Built target moveit_msgs__py
+[100%] Built target moveit_msgs__python
+[100%] Built target moveit_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target moveit_msgs__rosidl_typesupport_c__pyext
+[100%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext

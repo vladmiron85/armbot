@@ -1,0 +1,30 @@
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 70%] Built target srdfdom
+[ 80%] Built target test_parser
+[100%] Built target test_cpp
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.0
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/libsrdfdom.so
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom/model.h
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/package.xml

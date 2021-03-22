@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/home/vlad/ros2_foxy/install/urdf/share/urdf/cmake)
+-- Found tinyxml2_vendor: 0.7.3 (/home/vlad/ros2_foxy/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake)
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/srdfdom
+[ 20%] Built target gtest
+[ 40%] Built target gtest_main
+[ 70%] Built target srdfdom
+[ 90%] Built target test_cpp
+[100%] Built target test_parser
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.0
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/libsrdfdom.so
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom/model.h
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/include/srdfdom/srdf_writer.h
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/srdfdom/share/srdfdom/package.xml

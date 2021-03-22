@@ -1,0 +1,100 @@
+[0.037s] Invoking command in '/home/vlad/ros2_ws/build/pose_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/build/pose_interface -- -j12 -l12
+[0.090s] -- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.397s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.398s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.927s] -- Found rosidl_default_generators: 1.0.0 (/home/vlad/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.053s] -- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.621s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.431s] -- Found ament_cmake_ros: 0.9.0 (/home/vlad/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[2.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[2.982s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[3.356s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[3.356s] -- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+[3.660s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.661s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.661s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.090s] -- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[4.098s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.100s] -- Added test 'lint_cmake' to check CMake code style
+[4.101s] -- Added test 'xmllint' to check XML markup files
+[4.104s] -- Configuring done
+[4.136s] -- Generating done
+[4.139s] -- Build files have been written to: /home/vlad/ros2_ws/build/pose_interface
+[4.211s] [  5%] Built target pose_interface__cpp
+[4.211s] [  5%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c.o[0m
+[4.211s] [  5%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c.o[0m
+[4.227s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__struct.h:41[m[K,
+[4.227s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.h:19[m[K,
+[4.228s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c:4[m[K:
+[4.228s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.h: No such file or directory
+[4.228s]    24 | #include [01;31m[K"pose_interface/msg/detail/header__struct.h"[m[K
+[4.228s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.228s] compilation terminated.
+[4.228s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__functions.h:19[m[K,
+[4.229s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c:4[m[K:
+[4.229s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_c/pose_interface/msg/detail/persons__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.h: No such file or directory
+[4.229s]    24 | #include [01;31m[K"pose_interface/msg/detail/header__struct.h"[m[K
+[4.229s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.229s] compilation terminated.
+[4.229s] make[2]: *** [CMakeFiles/pose_interface__rosidl_generator_c.dir/build.make:166: CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c.o] Error 1
+[4.229s] make[2]: *** Waiting for unfinished jobs....
+[4.229s] make[2]: *** [CMakeFiles/pose_interface__rosidl_generator_c.dir/build.make:179: CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c.o] Error 1
+[4.229s] make[1]: *** [CMakeFiles/Makefile2:362: CMakeFiles/pose_interface__rosidl_generator_c.dir/all] Error 2
+[4.229s] make[1]: *** Waiting for unfinished jobs....
+[4.261s] [ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp.o[0m
+[4.261s] [ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp.o[0m
+[4.261s] [ 10%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp.o[0m
+[4.262s] [ 12%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o[0m
+[4.270s] [ 14%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp.o[0m
+[4.270s] [ 16%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp.o[0m
+[4.312s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+[4.312s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp:12[m[K:
+[4.312s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.312s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.312s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.313s] compilation terminated.
+[4.313s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/build.make:138: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp.o] Error 1
+[4.313s] make[2]: *** Waiting for unfinished jobs....
+[4.314s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp:7[m[K:
+[4.314s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.314s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.314s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.314s] compilation terminated.
+[4.314s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+[4.314s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp:7[m[K:
+[4.314s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.314s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.314s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.314s] compilation terminated.
+[4.315s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/build.make:111: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp.o] Error 1
+[4.315s] make[2]: *** Waiting for unfinished jobs....
+[4.315s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/build.make:124: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp.o] Error 1
+[4.315s] make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/all] Error 2
+[4.320s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp:12[m[K:
+[4.320s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.321s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.321s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.321s] compilation terminated.
+[4.321s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/srv/detail/get_pose__struct.hpp:126[m[K,
+[4.321s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[4.321s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp:4[m[K:
+[4.321s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.321s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.321s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.321s] compilation terminated.
+[4.322s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/build.make:125: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp.o] Error 1
+[4.322s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:138: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o] Error 1
+[4.322s] make[2]: *** Waiting for unfinished jobs....
+[4.322s] make[1]: *** [CMakeFiles/Makefile2:278: CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[4.327s] In file included from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/persons__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[4.327s]                  from [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp:4[m[K:
+[4.327s] [01m[K/home/vlad/ros2_ws/build/pose_interface/rosidl_generator_cpp/pose_interface/msg/detail/persons__struct.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kpose_interface/msg/detail/header__struct.hpp: No such file or directory
+[4.327s]    21 | #include [01;31m[K"pose_interface/msg/detail/header__struct.hpp"[m[K
+[4.328s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.328s] compilation terminated.
+[4.328s] make[2]: *** [CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make:125: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp.o] Error 1
+[4.328s] make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[4.329s] make: *** [Makefile:141: all] Error 2
+[4.332s] Invoked command in '/home/vlad/ros2_ws/build/pose_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/build/pose_interface -- -j12 -l12

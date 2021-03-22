@@ -1,0 +1,64 @@
+[35m[1mScanning dependencies of target moveit_move_group_capabilities_base[0m
+[  5%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_context.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_move_group_capabilities_base.dir/src/move_group_capability.cpp.o[0m
+[ 15%] [32m[1mLinking CXX shared library libmoveit_move_group_capabilities_base.so[0m
+[ 15%] Built target moveit_move_group_capabilities_base
+[35m[1mScanning dependencies of target move_group[0m
+[35m[1mScanning dependencies of target list_move_group_capabilities[0m
+[35m[1mScanning dependencies of target moveit_move_group_default_capabilities[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/move_group.dir/src/move_group.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/list_move_group_capabilities.dir/src/list_capabilities.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/plan_service_capability.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/kinematics_service_capability.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/move_action_capability.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/state_validation_service_capability.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/query_planners_service_capability.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/cartesian_path_service_capability.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/execute_trajectory_action_capability.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/get_planning_scene_service_capability.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/clear_octomap_service_capability.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/apply_planning_scene_service_capability.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable list_move_group_capabilities[0m
+[ 84%] Built target list_move_group_capabilities
+[ 89%] [32mBuilding CXX object CMakeFiles/moveit_move_group_default_capabilities.dir/src/default_capabilities/tf_publisher_capability.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable move_group[0m
+[ 94%] Built target move_group
+[100%] [32m[1mLinking CXX shared library libmoveit_move_group_default_capabilities.so[0m
+[100%] Built target moveit_move_group_default_capabilities
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/move_group" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/list_move_group_capabilities" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit/move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit/move_group/capability_names.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit/move_group/move_group_context.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit/move_group/move_group_capability.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/include/moveit/move_group/node_name.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/load_map
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/lib/moveit_ros_move_group/save_map
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/default_capabilities_plugin_description.xml
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/ament_index/resource_index/package_run_dependencies/moveit_ros_move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/ament_index/resource_index/parent_prefix_path/moveit_ros_move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/ament_index/resource_index/packages/moveit_ros_move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/ament_index/resource_index/moveit_ros_move_group__pluginlib__plugin/moveit_ros_move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/moveit_ros_move_groupConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/package.xml

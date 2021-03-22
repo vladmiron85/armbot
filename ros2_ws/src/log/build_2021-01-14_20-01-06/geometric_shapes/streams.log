@@ -1,0 +1,115 @@
+[0.283s] Invoking command in '/home/vlad/ros2_ws/src/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake /home/vlad/ros2_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/src/install/geometric_shapes
+[0.428s] -- The C compiler identification is GNU 9.3.0
+[0.615s] -- The CXX compiler identification is GNU 9.3.0
+[0.646s] -- Check for working C compiler: /usr/bin/cc
+[0.886s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.887s] -- Detecting C compiler ABI info
+[1.099s] -- Detecting C compiler ABI info - done
+[1.120s] -- Detecting C compile features
+[1.121s] -- Detecting C compile features - done
+[1.126s] -- Check for working CXX compiler: /usr/bin/c++
+[1.370s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.372s] -- Detecting CXX compiler ABI info
+[1.603s] -- Detecting CXX compiler ABI info - done
+[1.631s] -- Detecting CXX compile features
+[1.632s] -- Detecting CXX compile features - done
+[1.634s] geometric_shapes: You did not request a specific build type: Choosing 'Release' for maximum performance
+[1.718s] -- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+[2.487s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.488s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[4.884s] -- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[5.415s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.607s] -- Found FastRTPS: /home/vlad/ros2_foxy/install/fastrtps/include  
+[5.864s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[6.123s] -- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[6.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.195s] -- Looking for pthread.h
+[6.348s] -- Looking for pthread.h - found
+[6.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.503s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.503s] -- Looking for pthread_create in pthreads
+[6.632s] -- Looking for pthread_create in pthreads - not found
+[6.632s] -- Looking for pthread_create in pthread
+[6.906s] -- Looking for pthread_create in pthread - found
+[6.907s] -- Found Threads: TRUE  
+[7.303s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[7.329s] -- Found console_bridge_vendor: 1.2.2 (/home/vlad/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake)
+[7.366s] -- Found eigen3_cmake_module: 0.1.1 (/home/vlad/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+[7.395s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.452s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)
+[7.478s] -- Found random_numbers: 2.0.0 (/opt/ros/foxy/share/random_numbers/cmake)
+[7.496s] -- Found resource_retriever: 2.3.3 (/home/vlad/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake)
+[7.716s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.728s] -- Found shape_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/shape_msgs/share/shape_msgs/cmake)
+[7.855s] -- Found visualization_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake)
+[7.972s] -- Found QHULL: /usr/lib/x86_64-linux-gnu/libqhull_r.so  
+[7.973s] -- QHULL found (include: /usr/include/libqhull_r, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull_r.so;debug;/usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[8.665s] -- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[8.683s] -- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.686s] -- Check if compiler accepts -pthread
+[8.811s] -- Check if compiler accepts -pthread - yes
+[8.867s] -- Configuring done
+[8.977s] -- Generating done
+[8.980s] -- Build files have been written to: /home/vlad/ros2_ws/src/build/geometric_shapes
+[556.537s] Invoked command in '/home/vlad/ros2_ws/src/build/geometric_shapes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake /home/vlad/ros2_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/src/install/geometric_shapes
+[556.540s] Invoking command in '/home/vlad/ros2_ws/src/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/src/build/geometric_shapes -- -j12 -l12
+[556.707s] [35m[1mScanning dependencies of target geometric_shapes[0m
+[556.728s] [35m[1mScanning dependencies of target gtest_main[0m
+[556.741s] [35m[1mScanning dependencies of target gtest[0m
+[556.815s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[556.857s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[557.231s] [  9%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/bodies.cpp.o[0m
+[557.251s] [ 12%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/aabb.cpp.o[0m
+[557.293s] [ 15%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/mesh_operations.cpp.o[0m
+[557.309s] [ 18%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/body_operations.cpp.o[0m
+[557.333s] [ 21%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_extents.cpp.o[0m
+[557.356s] [ 24%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_operations.cpp.o[0m
+[557.363s] [ 30%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_to_marker.cpp.o[0m
+[557.385s] [ 27%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o[0m
+[560.728s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[561.178s] [ 33%] Built target gtest_main
+[576.941s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[577.027s] [ 36%] Built target gtest
+[577.055s] [35m[1mScanning dependencies of target test_basics[0m
+[577.107s] [ 39%] [32mBuilding CXX object test/CMakeFiles/test_basics.dir/test_basics.cpp.o[0m
+[577.210s] [ 42%] [32m[1mLinking CXX shared library libgeometric_shapes.so[0m
+[577.491s] [ 42%] Built target geometric_shapes
+[577.544s] [35m[1mScanning dependencies of target test_point_inclusion[0m
+[577.548s] [35m[1mScanning dependencies of target test_bounding_cylinder[0m
+[577.553s] [35m[1mScanning dependencies of target test_bounding_sphere[0m
+[577.570s] [35m[1mScanning dependencies of target test_ray_intersection[0m
+[577.613s] [35m[1mScanning dependencies of target test_create_mesh[0m
+[577.613s] [35m[1mScanning dependencies of target test_shapes[0m
+[577.614s] [35m[1mScanning dependencies of target test_loaded_meshes[0m
+[577.615s] [35m[1mScanning dependencies of target test_bounding_box[0m
+[577.627s] [35m[1mScanning dependencies of target test_body_operations[0m
+[577.725s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_bounding_sphere.dir/test_bounding_sphere.cpp.o[0m
+[577.726s] [ 48%] [32mBuilding CXX object test/CMakeFiles/test_bounding_cylinder.dir/test_bounding_cylinder.cpp.o[0m
+[577.755s] [ 51%] [32mBuilding CXX object test/CMakeFiles/test_point_inclusion.dir/test_point_inclusion.cpp.o[0m
+[577.759s] [ 54%] [32mBuilding CXX object test/CMakeFiles/test_bounding_box.dir/test_bounding_box.cpp.o[0m
+[577.762s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_body_operations.dir/test_body_operations.cpp.o[0m
+[577.776s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_ray_intersection.dir/test_ray_intersection.cpp.o[0m
+[577.809s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_create_mesh.dir/test_create_mesh.cpp.o[0m
+[577.834s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_shapes.dir/test_shapes.cpp.o[0m
+[577.862s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_loaded_meshes.dir/test_loaded_meshes.cpp.o[0m
+[581.830s] [ 72%] [32m[1mLinking CXX executable test_create_mesh[0m
+[582.478s] [ 72%] Built target test_create_mesh
+[584.905s] [ 75%] [32m[1mLinking CXX executable test_basics[0m
+[585.168s] [ 78%] [32m[1mLinking CXX executable test_bounding_sphere[0m
+[585.280s] [ 78%] Built target test_basics
+[585.868s] [ 78%] Built target test_bounding_sphere
+[586.723s] [ 81%] [32m[1mLinking CXX executable test_loaded_meshes[0m
+[587.169s] [ 81%] Built target test_loaded_meshes
+[587.370s] [ 84%] [32m[1mLinking CXX executable test_bounding_box[0m
+[587.503s] [ 87%] [32m[1mLinking CXX executable test_shapes[0m
+[587.727s] [ 87%] Built target test_bounding_box
+[587.923s] [ 87%] Built target test_shapes
+[588.645s] [ 90%] [32m[1mLinking CXX executable test_body_operations[0m
+[588.949s] [ 90%] Built target test_body_operations
+[589.641s] [ 93%] [32m[1mLinking CXX executable test_bounding_cylinder[0m
+[589.937s] [ 93%] Built target test_bounding_cylinder
+[591.067s] [ 96%] [32m[1mLinking CXX executable test_point_inclusion[0m
+[591.358s] [ 96%] Built target test_point_inclusion
+[639.173s] [100%] [32m[1mLinking CXX executable test_ray_intersection[0m
+[639.410s] [100%] Built target test_ray_intersection

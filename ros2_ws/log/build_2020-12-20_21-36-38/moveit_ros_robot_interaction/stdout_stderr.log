@@ -1,0 +1,63 @@
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found moveit_ros_planning: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found interactive_markers: 2.1.2 (/home/vlad/ros2_foxy/install/interactive_markers/share/interactive_markers/cmake)
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_ros_robot_interaction
+[ 15%] Built target gtest_main
+[35m[1mScanning dependencies of target moveit_robot_interaction[0m
+[ 30%] Built target gtest
+[ 38%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interactive_marker_helpers.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options_map.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/locked_robot_state.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library libmoveit_robot_interaction.so[0m
+[ 84%] Built target moveit_robot_interaction
+[35m[1mScanning dependencies of target locked_robot_state_test[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/locked_robot_state_test.dir/test/locked_robot_state_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable locked_robot_state_test[0m
+[100%] Built target locked_robot_state_test
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction_handler.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interactive_marker_helpers.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/robot_interaction.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/locked_robot_state.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/kinematic_options_map.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/include/moveit/robot_interaction/interaction.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.dae
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/resources/access-denied.stl
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/package_run_dependencies/moveit_ros_robot_interaction
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/parent_prefix_path/moveit_ros_robot_interaction
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/ament_index/resource_index/packages/moveit_ros_robot_interaction
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/moveit_ros_robot_interactionConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/package.xml

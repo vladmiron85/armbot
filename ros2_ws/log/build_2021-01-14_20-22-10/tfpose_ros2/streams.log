@@ -1,0 +1,152 @@
+[4.421s] Invoking command in '/home/vlad/ros2_ws/src/tfpose_ros2': PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed
+[34.435s] --2021-01-14 20:22:45--  http://download1412.mediafire.com/kzro4wotyctg/qlzzr20mpocnpa3/graph_opt.pb
+[34.489s] Resolving download1412.mediafire.com (download1412.mediafire.com)... 205.196.123.100
+[34.978s] Connecting to download1412.mediafire.com (download1412.mediafire.com)|205.196.123.100|:80... connected.
+[35.600s] HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[35.601s] 
+[35.601s]     The file is already fully retrieved; nothing to do.
+[35.601s] 
+[35.666s] running egg_info
+[35.666s] writing ../../build/tfpose_ros2/tf_pose.egg-info/PKG-INFO
+[35.667s] writing dependency_links to ../../build/tfpose_ros2/tf_pose.egg-info/dependency_links.txt
+[35.667s] writing requirements to ../../build/tfpose_ros2/tf_pose.egg-info/requires.txt
+[35.667s] writing top-level names to ../../build/tfpose_ros2/tf_pose.egg-info/top_level.txt
+[35.695s] file pafprocess.py (for module pafprocess) not found
+[35.746s] reading manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[35.747s] writing manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[35.747s] file pafprocess.py (for module pafprocess) not found
+[35.747s] running build
+[35.747s] running build_py
+[35.747s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.747s] copying tfpose_ros2/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/network_cmu.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/common.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/eval.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/pose_dataset.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/pystopwatch.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/network_mobilenet_v2.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/network_base.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/train.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.748s] copying tfpose_ros2/network_mobilenet_thin.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/estimator.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/runner.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/datum_pb2.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/network_dsconv.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/network_mobilenet.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/pose_augment.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] copying tfpose_ros2/networks.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2
+[35.749s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet
+[35.749s] copying tfpose_ros2/mobilenet/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet
+[35.749s] copying tfpose_ros2/mobilenet/mobilenet.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet
+[35.749s] copying tfpose_ros2/mobilenet/mobilenet_v2.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet
+[35.749s] copying tfpose_ros2/mobilenet/conv_blocks.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet
+[35.750s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/tensblur
+[35.750s] copying tfpose_ros2/tensblur/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/tensblur
+[35.750s] copying tfpose_ros2/tensblur/smoother.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/tensblur
+[35.750s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess
+[35.750s] copying tfpose_ros2/pafprocess/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess
+[35.750s] copying tfpose_ros2/pafprocess/setup.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess
+[35.750s] copying tfpose_ros2/pafprocess/pafprocess.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess
+[35.750s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.750s] copying tfpose_ros2/slidingwindow/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/Batching.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/ArrayUtils.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/Merging.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/RectangleUtils.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/SlidingWindow.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] copying tfpose_ros2/slidingwindow/WindowDistance.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow
+[35.751s] file pafprocess.py (for module pafprocess) not found
+[35.752s] running build_ext
+[35.752s] building '_pafprocess' extension
+[35.753s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2
+[35.753s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2/pafprocess
+[35.753s] x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tfpose_ros2/pafprocess/pafprocess_wrap.cpp -o /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2/pafprocess/pafprocess_wrap.o
+[36.748s] x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tfpose_ros2/pafprocess/pafprocess.cpp -o /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2/pafprocess/pafprocess.o
+[37.563s] x86_64-linux-gnu-g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fwrapv -O2 -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2/pafprocess/pafprocess_wrap.o /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tfpose_ros2/pafprocess/pafprocess.o -o /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/_pafprocess.cpython-38-x86_64-linux-gnu.so
+[37.627s] running install
+[37.627s] running install_lib
+[37.629s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_cmu.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/common.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/eval.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pose_dataset.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.629s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet/mobilenet.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet/mobilenet_v2.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/mobilenet/conv_blocks.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet
+[37.629s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/tensblur
+[37.629s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/tensblur/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/tensblur
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/tensblur/smoother.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/tensblur
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pystopwatch.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_mobilenet_v2.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.630s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess/setup.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pafprocess/pafprocess.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_base.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/train.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.630s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.630s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/Batching.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/ArrayUtils.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/Merging.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/RectangleUtils.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/SlidingWindow.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/slidingwindow/WindowDistance.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_mobilenet_thin.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/estimator.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/runner.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/datum_pb2.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_dsconv.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/network_mobilenet.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/pose_augment.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.631s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tfpose_ros2/networks.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2
+[37.632s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data
+[37.632s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/__init__.py -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data
+[37.632s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/graph
+[37.632s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/graph/cmu
+[37.632s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu/graph_opt.pb -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/graph/cmu
+[37.755s] creating /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/graph/mobilenet_thin
+[37.755s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin/graph_opt.pb -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/graph/mobilenet_thin
+[37.760s] copying /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/_pafprocess.cpython-38-x86_64-linux-gnu.so -> /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages
+[37.762s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/__init__.py to __init__.cpython-38.pyc
+[37.762s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_cmu.py to network_cmu.cpython-38.pyc
+[37.764s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/common.py to common.cpython-38.pyc
+[37.765s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/eval.py to eval.cpython-38.pyc
+[37.766s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pose_dataset.py to pose_dataset.cpython-38.pyc
+[37.769s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet/__init__.py to __init__.cpython-38.pyc
+[37.769s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet/mobilenet.py to mobilenet.cpython-38.pyc
+[37.770s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet/mobilenet_v2.py to mobilenet_v2.cpython-38.pyc
+[37.770s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/mobilenet/conv_blocks.py to conv_blocks.cpython-38.pyc
+[37.771s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/tensblur/__init__.py to __init__.cpython-38.pyc
+[37.772s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/tensblur/smoother.py to smoother.cpython-38.pyc
+[37.772s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pystopwatch.py to pystopwatch.cpython-38.pyc
+[37.773s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_mobilenet_v2.py to network_mobilenet_v2.cpython-38.pyc
+[37.773s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess/__init__.py to __init__.cpython-38.pyc
+[37.773s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess/setup.py to setup.cpython-38.pyc
+[37.774s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pafprocess/pafprocess.py to pafprocess.cpython-38.pyc
+[37.774s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_base.py to network_base.cpython-38.pyc
+[37.776s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/train.py to train.cpython-38.pyc
+[37.778s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/__init__.py to __init__.cpython-38.pyc
+[37.778s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/Batching.py to Batching.cpython-38.pyc
+[37.778s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/ArrayUtils.py to ArrayUtils.cpython-38.pyc
+[37.778s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/Merging.py to Merging.cpython-38.pyc
+[37.779s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/RectangleUtils.py to RectangleUtils.cpython-38.pyc
+[37.779s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/SlidingWindow.py to SlidingWindow.cpython-38.pyc
+[37.780s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/slidingwindow/WindowDistance.py to WindowDistance.cpython-38.pyc
+[37.780s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_mobilenet_thin.py to network_mobilenet_thin.cpython-38.pyc
+[37.781s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/estimator.py to estimator.cpython-38.pyc
+[37.784s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/runner.py to runner.cpython-38.pyc
+[37.784s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/datum_pb2.py to datum_pb2.cpython-38.pyc
+[37.785s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_dsconv.py to network_dsconv.cpython-38.pyc
+[37.786s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/network_mobilenet.py to network_mobilenet.cpython-38.pyc
+[37.787s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/pose_augment.py to pose_augment.cpython-38.pyc
+[37.788s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tfpose_ros2/networks.py to networks.cpython-38.pyc
+[37.789s] byte-compiling /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose_data/__init__.py to __init__.cpython-38.pyc
+[37.789s] running install_egg_info
+[37.791s] Copying ../../build/tfpose_ros2/tf_pose.egg-info to /home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages/tf_pose-0.1.1-py3.8.egg-info
+[37.792s] running install_scripts
+[37.812s] file pafprocess.py (for module pafprocess) not found
+[37.813s] writing list of installed files to '/home/vlad/ros2_ws/build/tfpose_ros2/install.log'

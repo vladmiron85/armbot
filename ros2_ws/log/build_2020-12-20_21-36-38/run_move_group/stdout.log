@@ -1,0 +1,40 @@
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found moveit_ros_planning_interface: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/run_move_group
+[35m[1mScanning dependencies of target run_move_group[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/run_move_group.dir/src/run_move_group.cpp.o[0m
+[100%] [32m[1mLinking CXX executable run_move_group[0m
+[100%] Built target run_move_group
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/lib/run_move_group/run_move_group
+-- Set runtime path of "/home/vlad/ros2_ws/install/run_move_group/lib/run_move_group/run_move_group" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/launch
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/launch/run_move_group.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/launch/run_move_group.rviz
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/launch/run_move_group_interface.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/config
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/config/panda_controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/config/controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/config/start_positions.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/ament_index/resource_index/package_run_dependencies/run_move_group
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/share/ament_index/resource_index/parent_prefix_path/run_move_group
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/ament_index/resource_index/packages/run_move_group
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/cmake/run_move_groupConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/cmake/run_move_groupConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/run_move_group/share/run_move_group/package.xml

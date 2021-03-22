@@ -1,0 +1,83 @@
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found moveit_msgs: 2.0.0 (/home/vlad/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found moveit_core: 2.1.0 (/home/vlad/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_ros_planning: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+-- Found moveit_ros_move_group: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake)
+-- Found rclpy: 1.0.4 (/home/vlad/ros2_foxy/install/rclpy/share/rclpy/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_ros_planning_interface
+[35m[1mScanning dependencies of target moveit_planning_scene_interface[0m
+[35m[1mScanning dependencies of target moveit_common_planning_interface_objects[0m
+[35m[1mScanning dependencies of target moveit_cpp[0m
+[ 11%] [32mBuilding CXX object planning_scene_interface/CMakeFiles/moveit_planning_scene_interface.dir/src/planning_scene_interface.cpp.o[0m
+[ 22%] [32mBuilding CXX object common_planning_interface_objects/CMakeFiles/moveit_common_planning_interface_objects.dir/src/common_objects.cpp.o[0m
+[ 33%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/moveit_cpp.cpp.o[0m
+[ 44%] [32mBuilding CXX object moveit_cpp/CMakeFiles/moveit_cpp.dir/src/planning_component.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libmoveit_common_planning_interface_objects.so[0m
+[ 55%] Built target moveit_common_planning_interface_objects
+[ 66%] [32m[1mLinking CXX shared library libmoveit_planning_scene_interface.so[0m
+[ 66%] Built target moveit_planning_scene_interface
+[35m[1mScanning dependencies of target moveit_move_group_interface[0m
+[ 77%] [32mBuilding CXX object move_group_interface/CMakeFiles/moveit_move_group_interface.dir/src/move_group_interface.cpp.o[0m
+[ 88%] [32m[1mLinking CXX shared library libmoveit_cpp.so[0m
+[ 88%] Built target moveit_cpp
+[100%] [32m[1mLinking CXX shared library libmoveit_move_group_interface.so[0m
+[100%] Built target moveit_move_group_interface
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_planning_interface
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_planning_interface
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/ament_index/resource_index/packages/moveit_ros_planning_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake/moveit_ros_planning_interfaceConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/package.xml
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_common_planning_interface_objects.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_common_planning_interface_objects.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_common_planning_interface_objects.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/common_planning_interface_objects
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/common_planning_interface_objects/common_objects.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_planning_scene_interface.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_planning_scene_interface.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_planning_scene_interface.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/planning_scene_interface/planning_scene_interface.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_move_group_interface.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_move_group_interface.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_move_group_interface.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/move_group_interface/move_group_interface.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_cpp.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_cpp.so." to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/lib/libmoveit_cpp.so
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/moveit_cpp
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/moveit_cpp/moveit_cpp.h
+-- Up-to-date: /home/vlad/ros2_ws/install/moveit_ros_planning_interface/include/moveit/moveit_cpp/planning_component.h

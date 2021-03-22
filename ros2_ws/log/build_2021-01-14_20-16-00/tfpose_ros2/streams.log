@@ -1,0 +1,42 @@
+[3.298s] Invoking command in '/home/vlad/ros2_ws/src/tfpose_ros2': PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed
+[5.201s] --2021-01-14 20:16:07--  http://download758.mediafire.com/wqs9g771we5g/qlzzr20mpocnpa3/graph_opt.pb
+[5.292s] Resolving download758.mediafire.com (download758.mediafire.com)... 205.196.120.206
+[5.562s] Connecting to download758.mediafire.com (download758.mediafire.com)|205.196.120.206|:80... connected.
+[6.175s] HTTP request sent, awaiting response... 416 Range Not Satisfiable
+[6.175s] 
+[6.175s]     The file is already fully retrieved; nothing to do.
+[6.175s] 
+[6.217s] running egg_info
+[6.218s] creating ../../build/tfpose_ros2/tf_pose.egg-info
+[6.218s] writing ../../build/tfpose_ros2/tf_pose.egg-info/PKG-INFO
+[6.218s] writing dependency_links to ../../build/tfpose_ros2/tf_pose.egg-info/dependency_links.txt
+[6.219s] writing requirements to ../../build/tfpose_ros2/tf_pose.egg-info/requires.txt
+[6.219s] writing top-level names to ../../build/tfpose_ros2/tf_pose.egg-info/top_level.txt
+[6.219s] writing manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[6.260s] file pafprocess.py (for module pafprocess) not found
+[6.326s] reading manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[6.327s] writing manifest file '../../build/tfpose_ros2/tf_pose.egg-info/SOURCES.txt'
+[6.327s] running build
+[6.327s] running build_py
+[6.328s] file pafprocess.py (for module pafprocess) not found
+[6.328s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build
+[6.328s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8
+[6.328s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+[6.329s] copying models/__init__.py -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data
+[6.329s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph
+[6.329s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+[6.329s] copying models/graph/cmu/graph_opt.pb -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/cmu
+[6.496s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+[6.496s] copying models/graph/mobilenet_thin/graph_opt.pb -> /home/vlad/ros2_ws/build/tfpose_ros2/build/lib.linux-x86_64-3.8/tf_pose_data/graph/mobilenet_thin
+[6.503s] file pafprocess.py (for module pafprocess) not found
+[6.503s] running build_ext
+[6.503s] building '_pafprocess' extension
+[6.504s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8
+[6.504s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose
+[6.504s] creating /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess
+[6.504s] x86_64-linux-gnu-gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -I/home/vlad/.local/lib/python3.8/site-packages/numpy/core/include -I/usr/include/python3.8 -c tf_pose/pafprocess/pafprocess_wrap.cpp -o /home/vlad/ros2_ws/build/tfpose_ros2/build/temp.linux-x86_64-3.8/tf_pose/pafprocess/pafprocess_wrap.o
+[6.510s] [01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kerror: [m[Ktf_pose/pafprocess/pafprocess_wrap.cpp: No such file or directory
+[6.511s] [01m[Kx86_64-linux-gnu-gcc:[m[K [01;31m[Kfatal error: [m[Kno input files
+[6.511s] compilation terminated.
+[6.511s] error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+[6.545s] Invoked command in '/home/vlad/ros2_ws/src/tfpose_ros2' returned '1': PYTHONPATH=/home/vlad/ros2_ws/install/tfpose_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tfpose_ros2 build --build-base /home/vlad/ros2_ws/build/tfpose_ros2/build install --prefix /home/vlad/ros2_ws/install/tfpose_ros2 --record /home/vlad/ros2_ws/build/tfpose_ros2/install.log --single-version-externally-managed

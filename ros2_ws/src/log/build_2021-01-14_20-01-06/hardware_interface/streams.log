@@ -1,0 +1,117 @@
+[0.211s] Invoking command in '/home/vlad/ros2_ws/src/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake /home/vlad/ros2_ws/src/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/src/install/hardware_interface
+[0.370s] -- The C compiler identification is GNU 9.3.0
+[0.585s] -- The CXX compiler identification is GNU 9.3.0
+[0.622s] -- Check for working C compiler: /usr/bin/cc
+[0.818s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.819s] -- Detecting C compiler ABI info
+[1.017s] -- Detecting C compiler ABI info - done
+[1.041s] -- Detecting C compile features
+[1.041s] -- Detecting C compile features - done
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++
+[1.254s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.256s] -- Detecting CXX compiler ABI info
+[1.469s] -- Detecting CXX compiler ABI info - done
+[1.492s] -- Detecting CXX compile features
+[1.493s] -- Detecting CXX compile features - done
+[1.521s] -- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[2.274s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.274s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.982s] -- Found control_msgs: 2.4.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[4.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[4.412s] -- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[4.911s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.042s] -- Found FastRTPS: /home/vlad/ros2_foxy/install/fastrtps/include  
+[5.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[6.177s] -- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+[6.323s] -- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+[6.359s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.360s] -- Looking for pthread.h
+[6.506s] -- Looking for pthread.h - found
+[6.506s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.770s] -- Looking for pthread_create in pthreads
+[6.902s] -- Looking for pthread_create in pthreads - not found
+[6.902s] -- Looking for pthread_create in pthread
+[7.044s] -- Looking for pthread_create in pthread - found
+[7.045s] -- Found Threads: TRUE  
+[7.305s] -- Found tinyxml2_vendor: 0.7.3 (/home/vlad/ros2_foxy/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake)
+[7.348s] -- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[7.457s] -- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[8.070s] -- Found gmock sources under '/home/vlad/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.102s] -- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+[8.103s] -- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.254s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.262s] -- Configured cppcheck include dirs: /home/vlad/ros2_ws/src/ros2_control/hardware_interface/include
+[8.262s] -- Configured cppcheck exclude dirs and/or files: 
+[8.270s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.270s] -- Configured cpplint exclude dirs and/or files: 
+[8.278s] -- Added test 'lint_cmake' to check CMake code style
+[8.288s] -- Added test 'uncrustify' to check C / C++ code style
+[8.288s] -- Configured uncrustify additional arguments: 
+[8.295s] -- Added test 'xmllint' to check XML markup files
+[8.316s] -- Configuring done
+[8.435s] -- Generating done
+[8.439s] -- Build files have been written to: /home/vlad/ros2_ws/src/build/hardware_interface
+[556.417s] Invoked command in '/home/vlad/ros2_ws/src/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake /home/vlad/ros2_ws/src/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/vlad/ros2_ws/src/install/hardware_interface
+[556.420s] Invoking command in '/home/vlad/ros2_ws/src/build/hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/src/build/hardware_interface -- -j12 -l12
+[556.568s] [35m[1mScanning dependencies of target hardware_interface[0m
+[556.568s] [35m[1mScanning dependencies of target gmock[0m
+[556.586s] [35m[1mScanning dependencies of target gmock_main[0m
+[556.592s] [35m[1mScanning dependencies of target components[0m
+[556.611s] [35m[1mScanning dependencies of target component_parser[0m
+[556.678s] [  2%] [32mBuilding CXX object CMakeFiles/components.dir/src/components/joint.cpp.o[0m
+[556.688s] [  5%] [32mBuilding CXX object CMakeFiles/components.dir/src/components/sensor.cpp.o[0m
+[556.707s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[556.711s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[556.733s] [ 14%] [32mBuilding CXX object CMakeFiles/component_parser.dir/src/component_parser.cpp.o[0m
+[556.753s] [ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[556.795s] [ 20%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/actuator_hardware.cpp.o[0m
+[556.839s] [ 23%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/operation_mode_handle.cpp.o[0m
+[556.875s] [ 26%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/joint_state_handle.cpp.o[0m
+[556.877s] [ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/joint_command_handle.cpp.o[0m
+[556.900s] [ 32%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/robot_hardware.cpp.o[0m
+[556.983s] [ 35%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor_hardware.cpp.o[0m
+[557.811s] [ 38%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/system_hardware.cpp.o[0m
+[559.777s] [ 41%] [32m[1mLinking CXX static library libcomponent_parser.a[0m
+[560.194s] [ 41%] Built target component_parser
+[560.392s] [ 44%] [32m[1mLinking CXX shared library libcomponents.so[0m
+[560.728s] [ 44%] Built target components
+[562.888s] [ 47%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[563.332s] [ 47%] Built target gmock_main
+[567.162s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[567.447s] [ 50%] Built target gmock
+[567.503s] [35m[1mScanning dependencies of target test_macros[0m
+[567.536s] [35m[1mScanning dependencies of target test_component_parser[0m
+[567.606s] [ 52%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[567.648s] [ 55%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[568.047s] [ 58%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[569.240s] [ 58%] Built target hardware_interface
+[569.299s] [35m[1mScanning dependencies of target test_register_actuators[0m
+[569.377s] [35m[1mScanning dependencies of target test_component_interfaces[0m
+[569.379s] [35m[1mScanning dependencies of target test_actuator_handle[0m
+[569.384s] [35m[1mScanning dependencies of target test_robot_hardware_interfaces[0m
+[569.411s] [35m[1mScanning dependencies of target test_register_joints[0m
+[569.428s] [35m[1mScanning dependencies of target test_joint_handle[0m
+[569.454s] [ 61%] [32mBuilding CXX object CMakeFiles/test_register_actuators.dir/test/test_register_actuators.cpp.o[0m
+[569.523s] [ 64%] [32mBuilding CXX object CMakeFiles/test_actuator_handle.dir/test/test_actuator_handle.cpp.o[0m
+[569.541s] [ 67%] [32mBuilding CXX object CMakeFiles/test_robot_hardware_interfaces.dir/test/test_robot_hardware_interface.cpp.o[0m
+[569.557s] [ 70%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[569.563s] [ 73%] [32mBuilding CXX object CMakeFiles/test_joint_handle.dir/test/test_joint_handle.cpp.o[0m
+[569.575s] [ 76%] [32mBuilding CXX object CMakeFiles/test_register_joints.dir/test/test_register_joints.cpp.o[0m
+[569.875s] [ 79%] [32m[1mLinking CXX executable test_macros[0m
+[570.596s] [ 79%] Built target test_macros
+[572.193s] [ 82%] [32m[1mLinking CXX executable test_joint_handle[0m
+[572.558s] [ 85%] [32m[1mLinking CXX executable test_actuator_handle[0m
+[572.576s] [ 88%] [32m[1mLinking CXX executable test_component_parser[0m
+[572.943s] [ 88%] Built target test_joint_handle
+[573.193s] [ 88%] Built target test_actuator_handle
+[573.229s] [ 88%] Built target test_component_parser
+[573.345s] [ 91%] [32m[1mLinking CXX executable test_robot_hardware_interfaces[0m
+[573.524s] [ 94%] [32m[1mLinking CXX executable test_register_actuators[0m
+[573.742s] [ 97%] [32m[1mLinking CXX executable test_register_joints[0m
+[573.984s] [ 97%] Built target test_robot_hardware_interfaces
+[574.185s] [100%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[574.199s] [100%] Built target test_register_actuators
+[574.381s] [100%] Built target test_register_joints
+[574.721s] [100%] Built target test_component_interfaces

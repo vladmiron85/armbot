@@ -1,0 +1,74 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found warehouse_ros: 2.0.0 (/home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/vlad/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found MONGODB: /usr/include, /usr/lib/x86_64-linux-gnu/libmongoclient.so
+-- MONGODB using new interface: YES
+-- Found rclpy: 1.0.4 (/home/vlad/ros2_foxy/install/rclpy/share/rclpy/cmake)
+-- Found launch_testing_ament_cmake: 0.10.3 (/home/vlad/ros2_foxy/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/warehouse_ros_mongo
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 50%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/query_results.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/message_collection.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/warehouse_ros_mongo.dir/src/database_connection.cpp.o[0m
+[ 80%] [32m[1mLinking CXX shared library libwarehouse_ros_mongo.so[0m
+[ 80%] Built target warehouse_ros_mongo
+[ 90%] [32mBuilding CXX object CMakeFiles/test_warehouse_ros_mongo_cpp.dir/test/test_warehouse_ros_mongo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_warehouse_ros_mongo_cpp[0m
+[100%] Built target test_warehouse_ros_mongo_cpp
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/pythonpath.sh
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/pythonpath.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/python3.8/site-packages/warehouse_ros_mongo
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/python3.8/site-packages/warehouse_ros_mongo/mongo_wrapper_ros.py
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/python3.8/site-packages/warehouse_ros_mongo/__init__.py
+Listing '/home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/python3.8/site-packages/warehouse_ros_mongo'...
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/warehouse_ros_mongo/test_warehouse_ros_mongo_cpp
+-- Set runtime path of "/home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/warehouse_ros_mongo/test_warehouse_ros_mongo_cpp" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/warehouse_ros_mongo/mongo_wrapper_ros.py
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/libwarehouse_ros_mongo.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/warehouse_ros_mongo/lib/libwarehouse_ros_mongo.so" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include/query_results.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include/message_collection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include/metadata.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include/database_connection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/include/warehouse_ros_mongo/config.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/warehouse_ros_mongo.launch.py
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/mongo_database_connection_plugin_description.xml
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/ament_index/resource_index/package_run_dependencies/warehouse_ros_mongo
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/ament_index/resource_index/parent_prefix_path/warehouse_ros_mongo
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/ament_index/resource_index/packages/warehouse_ros_mongo
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/ament_index/resource_index/warehouse_ros__pluginlib__plugin/warehouse_ros_mongo
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake/warehouse_ros_mongoConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake/warehouse_ros_mongoConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/package.xml

@@ -1,0 +1,38 @@
+[ 16%] Built target gtest
+[ 33%] Built target gtest_main
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense_ros.dir/src/rs_base.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library librealsense_ros.so[0m
+[ 83%] Built target realsense_ros
+[35m[1mScanning dependencies of target camera_core[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/camera_core.dir/tests/camera_core.cpp.o[0m
+[100%] [32m[1mLinking CXX executable camera_core[0m
+[100%] Built target camera_core
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/lib/librealsense_ros.so
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_base.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_constants.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_d435.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_d435i.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/include/realsense/rs_t265.hpp
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/library_path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/library_path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/ament_index/resource_index/package_run_dependencies/realsense_ros
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/ament_index/resource_index/parent_prefix_path/realsense_ros
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/path.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/environment/path.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.bash
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.sh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.zsh
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/package.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/ament_index/resource_index/packages/realsense_ros
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/ament_index/resource_index/rclcpp_components/realsense_ros
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/realsense_rosConfig.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/realsense_rosConfig-version.cmake
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/package.xml

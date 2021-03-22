@@ -1,0 +1,37 @@
+[ 60%] Built target warehouse_ros
+[100%] Built target warehouse_test_dbloader
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/library_path.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/lib/libwarehouse_ros.so
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/lib/warehouse_ros/warehouse_test_dbloader
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/transform_collection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/query_results.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/message_collection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/metadata.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/exceptions.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/message_with_metadata.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/database_connection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/database_loader.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/query_results_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/database_connection_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/message_collection_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/package_run_dependencies/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/parent_prefix_path/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/packages/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/warehouse_rosConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/warehouse_rosConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/package.xml

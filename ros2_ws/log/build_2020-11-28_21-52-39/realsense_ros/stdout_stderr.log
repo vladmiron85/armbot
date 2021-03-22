@@ -1,0 +1,10 @@
+[ 33%] Built target gtest_main
+[ 33%] Built target gtest
+[ 41%] [32mBuilding CXX object CMakeFiles/realsense_ros.dir/src/rs_base.cpp.o[0m
+[01m[K/home/vlad/ros2_ws/src/ros2_intel_realsense/realsense_ros/src/rs_base.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kboost/endian/conversion.hpp: No such file or directory
+   15 | #include [01;31m[K<boost/endian/conversion.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/realsense_ros.dir/build.make:76: CMakeFiles/realsense_ros.dir/src/rs_base.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:130: CMakeFiles/realsense_ros.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,42 @@
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found moveit_ros_planning_interface: 2.1.0 (/home/vlad/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/run_moveit_cpp
+[35m[1mScanning dependencies of target run_moveit_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/run_moveit_cpp.dir/src/run_moveit_cpp.cpp.o[0m
+[100%] [32m[1mLinking CXX executable run_moveit_cpp[0m
+[100%] Built target run_moveit_cpp
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/lib/run_moveit_cpp/run_moveit_cpp
+-- Set runtime path of "/home/vlad/ros2_ws/install/run_moveit_cpp/lib/run_moveit_cpp/run_moveit_cpp" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/launch
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/launch/run_moveit_cpp.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/launch/run_moveit_cpp_fake_controller.launch.py
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/launch/run_moveit_cpp.rviz
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config/moveit_cpp.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config/panda_controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config/fake_controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config/controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/config/start_positions.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/ament_index/resource_index/package_run_dependencies/run_moveit_cpp
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/share/ament_index/resource_index/parent_prefix_path/run_moveit_cpp
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/ament_index/resource_index/packages/run_moveit_cpp
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/cmake/run_moveit_cppConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/cmake/run_moveit_cppConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/run_moveit_cpp/share/run_moveit_cpp/package.xml

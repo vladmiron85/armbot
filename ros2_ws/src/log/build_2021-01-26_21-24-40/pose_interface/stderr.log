@@ -1,0 +1,8 @@
+CMake Error at /home/vlad/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'srv/GetPose' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/vlad/ros2_ws/src/pose_interface'
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+

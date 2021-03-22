@@ -1,0 +1,54 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found pluginlib: 2.5.2 (/home/vlad/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Found tf2: 0.13.7 (/home/vlad/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found tf2_ros: 0.13.7 (/home/vlad/ros2_foxy/install/tf2_ros/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.7 (/home/vlad/ros2_foxy/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/vlad/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/warehouse_ros
+[ 60%] Built target warehouse_ros
+[100%] Built target warehouse_test_dbloader
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/lib/libwarehouse_ros.so
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/lib/warehouse_ros/warehouse_test_dbloader
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/transform_collection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/query_results.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/message_collection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/metadata.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/exceptions.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/message_with_metadata.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/database_connection.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/database_loader.h
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/query_results_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/database_connection_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/include/warehouse_ros/impl/message_collection_impl.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/package_run_dependencies/warehouse_ros
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/parent_prefix_path/warehouse_ros
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/ament_index/resource_index/packages/warehouse_ros
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/warehouse_rosConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/cmake/warehouse_rosConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/warehouse_ros/share/warehouse_ros/package.xml

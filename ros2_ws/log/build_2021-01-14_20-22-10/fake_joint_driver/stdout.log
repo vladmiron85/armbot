@@ -1,0 +1,26 @@
+[100%] Built target fake_joint_driver_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/lib/fake_joint_driver/fake_joint_driver_node
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/config
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/config/controllers.yaml
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/robot
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/robot/arm3.urdf.xacro
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/test
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/test/test_fake_joint_driver.py
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/test/fake_joint_driver.test
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/include
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/include/fake_joint_driver.h
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/ament_index/resource_index/package_run_dependencies/fake_joint_driver
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/ament_index/resource_index/parent_prefix_path/fake_joint_driver
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/local_setup.zsh
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/ament_index/resource_index/packages/fake_joint_driver
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/cmake/fake_joint_driverConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/cmake/fake_joint_driverConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/fake_joint_driver/share/fake_joint_driver/package.xml

@@ -1,0 +1,287 @@
+[0.042s] Invoking command in '/home/vlad/ros2_ws/build/pose_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/build/pose_interface -- -j12 -l12
+[0.094s] -- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.398s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.398s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.929s] -- Found rosidl_default_generators: 1.0.0 (/home/vlad/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.055s] -- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.323s] -- Found std_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/std_msgs/share/std_msgs/cmake)
+[1.677s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.612s] -- Found ament_cmake_ros: 0.9.0 (/home/vlad/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[3.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[3.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[3.853s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[3.853s] -- Found python_cmake_module: 0.8.0 (/home/vlad/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+[4.165s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.166s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.166s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.736s] -- Configuring done
+[4.786s] -- Generating done
+[4.789s] -- Build files have been written to: /home/vlad/ros2_ws/build/pose_interface
+[4.837s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.861s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.555s] [35m[1mScanning dependencies of target pose_interface__rosidl_generator_c[0m
+[5.578s] [  3%] Built target pose_interface__cpp
+[5.582s] [  9%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/srv/detail/get_pose__functions.c.o[0m
+[5.582s] [  9%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/person__functions.c.o[0m
+[5.582s] [  9%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/persons__functions.c.o[0m
+[5.584s] [ 10%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_generator_c.dir/rosidl_generator_c/pose_interface/msg/detail/body_part_elm__functions.c.o[0m
+[5.605s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.605s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.616s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.656s] [ 18%] [32m[1mLinking C shared library libpose_interface__rosidl_generator_c.so[0m
+[5.724s] [ 18%] Built target pose_interface__rosidl_generator_c
+[5.749s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.751s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.266s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_cpp[0m
+[6.293s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_introspection_cpp[0m
+[6.309s] [ 25%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/body_part_elm__type_support.cpp.o[0m
+[6.310s] [ 25%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/person__type_support.cpp.o[0m
+[6.311s] [ 29%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/msg/persons__type_support.cpp.o[0m
+[6.311s] [ 29%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pose_interface/srv/get_pose__type_support.cpp.o[0m
+[6.339s] [ 30%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/person__type_support.cpp.o[0m
+[6.339s] [ 32%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/body_part_elm__type_support.cpp.o[0m
+[6.342s] [ 34%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/msg/detail/persons__type_support.cpp.o[0m
+[6.346s] [ 36%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pose_interface/srv/detail/get_pose__type_support.cpp.o[0m
+[6.473s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_fastrtps_cpp[0m
+[6.531s] [ 38%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/body_part_elm__type_support.cpp.o[0m
+[6.562s] [ 40%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/person__type_support.cpp.o[0m
+[6.591s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_c[0m
+[6.655s] [ 41%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_interface/msg/body_part_elm__type_support.cpp.o[0m
+[6.758s] [ 43%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_interface/msg/person__type_support.cpp.o[0m
+[6.796s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_introspection_c[0m
+[6.842s] [ 45%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_interface/msg/persons__type_support.cpp.o[0m
+[6.845s] [ 49%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/msg/detail/dds_fastrtps/persons__type_support.cpp.o[0m
+[6.845s] [ 49%] [32m[1mLinking CXX shared library libpose_interface__rosidl_typesupport_cpp.so[0m
+[6.852s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pose_interface/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o[0m
+[6.855s] [ 52%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/pose_interface/srv/get_pose__type_support.cpp.o[0m
+[6.877s] [ 54%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_interface/msg/detail/body_part_elm__type_support.c.o[0m
+[6.883s] [ 56%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_interface/msg/detail/person__type_support.c.o[0m
+[6.924s] [ 58%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_interface/msg/detail/persons__type_support.c.o[0m
+[6.931s] [ 60%] [32m[1mLinking CXX shared library libpose_interface__rosidl_typesupport_c.so[0m
+[6.934s] [ 61%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pose_interface/srv/detail/get_pose__type_support.c.o[0m
+[6.949s] [ 63%] [32m[1mLinking CXX shared library libpose_interface__rosidl_typesupport_introspection_cpp.so[0m
+[6.965s] [ 63%] Built target pose_interface__rosidl_typesupport_cpp
+[7.012s] [ 65%] [32m[1mLinking C shared library libpose_interface__rosidl_typesupport_introspection_c.so[0m
+[7.038s] [ 65%] Built target pose_interface__rosidl_typesupport_c
+[7.087s] [ 65%] Built target pose_interface__rosidl_typesupport_introspection_c
+[7.089s] [ 65%] Built target pose_interface__rosidl_typesupport_introspection_cpp
+[7.433s] [ 67%] [32m[1mLinking CXX shared library libpose_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.538s] [ 67%] Built target pose_interface__rosidl_typesupport_fastrtps_cpp
+[7.562s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.208s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_fastrtps_c[0m
+[8.246s] [ 76%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_interface/srv/detail/get_pose__type_support_c.cpp.o[0m
+[8.246s] [ 76%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_interface/msg/detail/body_part_elm__type_support_c.cpp.o[0m
+[8.246s] [ 76%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_interface/msg/detail/person__type_support_c.cpp.o[0m
+[8.246s] [ 76%] [32mBuilding CXX object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pose_interface/msg/detail/persons__type_support_c.cpp.o[0m
+[8.610s] [ 78%] [32m[1mLinking CXX shared library libpose_interface__rosidl_typesupport_fastrtps_c.so[0m
+[8.715s] [ 78%] Built target pose_interface__rosidl_typesupport_fastrtps_c
+[8.738s] [35m[1mScanning dependencies of target pose_interface[0m
+[8.763s] [ 78%] Built target pose_interface
+[8.787s] [35m[1mScanning dependencies of target pose_interface__py[0m
+[8.810s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.806s] [ 80%] Built target pose_interface__py
+[9.831s] [35m[1mScanning dependencies of target pose_interface__python[0m
+[9.888s] [ 87%] [32mBuilding C object CMakeFiles/pose_interface__python.dir/rosidl_generator_py/pose_interface/msg/_persons_s.c.o[0m
+[9.888s] [ 87%] [32mBuilding C object CMakeFiles/pose_interface__python.dir/rosidl_generator_py/pose_interface/srv/_get_pose_s.c.o[0m
+[9.888s] [ 87%] [32mBuilding C object CMakeFiles/pose_interface__python.dir/rosidl_generator_py/pose_interface/msg/_body_part_elm_s.c.o[0m
+[9.888s] [ 87%] [32mBuilding C object CMakeFiles/pose_interface__python.dir/rosidl_generator_py/pose_interface/msg/_person_s.c.o[0m
+[10.020s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/pose_interface/libpose_interface__python.so[0m
+[10.087s] [ 89%] Built target pose_interface__python
+[10.110s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_c__pyext[0m
+[10.111s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_introspection_c__pyext[0m
+[10.111s] [35m[1mScanning dependencies of target pose_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.142s] [ 94%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pose_interface/_pose_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.142s] [ 94%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pose_interface/_pose_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[10.142s] [ 94%] [32mBuilding C object CMakeFiles/pose_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pose_interface/_pose_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.248s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pose_interface/pose_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.248s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/pose_interface/pose_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.255s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/pose_interface/pose_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.312s] [100%] Built target pose_interface__rosidl_typesupport_introspection_c__pyext
+[10.312s] [100%] Built target pose_interface__rosidl_typesupport_c__pyext
+[10.344s] [100%] Built target pose_interface__rosidl_typesupport_fastrtps_c__pyext
+[10.364s] Invoked command in '/home/vlad/ros2_ws/build/pose_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --build /home/vlad/ros2_ws/build/pose_interface -- -j12 -l12
+[10.730s] Invoking command in '/home/vlad/ros2_ws/build/pose_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --install /home/vlad/ros2_ws/build/pose_interface
+[10.748s] -- Install configuration: ""
+[10.748s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/ament_index/resource_index/rosidl_interfaces/pose_interface
+[10.749s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.749s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/body_part_elm.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/rosidl_generator_c__visibility_control.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/person.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__struct.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__struct.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__functions.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__type_support.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__functions.h
+[10.750s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__struct.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__functions.c
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__functions.c
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__functions.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__type_support.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__functions.c
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__type_support.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/persons.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__type_support.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__functions.c
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__struct.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__functions.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/get_pose.h
+[10.751s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/library_path.sh
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/library_path.dsv
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_generator_c.so
+[10.752s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_generator_c.so" to ""
+[10.752s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.752s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.752s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__rosidl_typesupport_introspection_c.h
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__rosidl_typesupport_introspection_c.h
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__type_support.c
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__type_support.c
+[10.752s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__type_support.c
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__rosidl_typesupport_introspection_c.h
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.753s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.753s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__rosidl_typesupport_introspection_c.h
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__type_support.c
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_introspection_c.so
+[10.753s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_introspection_c.so" to ""
+[10.753s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.753s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.753s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.753s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__rosidl_typesupport_fastrtps_c.h
+[10.754s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__rosidl_typesupport_fastrtps_c.h
+[10.754s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__rosidl_typesupport_fastrtps_c.h
+[10.754s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.754s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.754s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.754s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h
+[10.754s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_fastrtps_c.so
+[10.754s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[10.754s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.754s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.755s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/dds_fastrtps
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__rosidl_typesupport_fastrtps_cpp.hpp
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__rosidl_typesupport_fastrtps_cpp.hpp
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.755s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.755s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/dds_fastrtps
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_fastrtps_cpp.so
+[10.755s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.755s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_c.so
+[10.756s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_c.so" to ""
+[10.756s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.756s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.756s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__traits.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__struct.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__traits.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__struct.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__traits.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__builder.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__builder.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__struct.hpp
+[10.756s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__builder.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/persons.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/person.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/body_part_elm.hpp
+[10.757s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.757s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__struct.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__builder.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__traits.hpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/get_pose.hpp
+[10.757s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface
+[10.757s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg
+[10.757s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__type_support.cpp
+[10.757s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__type_support.cpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/body_part_elm__type_support.cpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/msg/detail/persons__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv
+[10.758s] -- Up-to-date: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__type_support.cpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/include/pose_interface/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_introspection_cpp.so
+[10.758s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[10.758s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_cpp.so
+[10.758s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__rosidl_typesupport_cpp.so" to ""
+[10.759s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/pythonpath.sh
+[10.759s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/pythonpath.dsv
+[10.759s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/__init__.py
+[11.102s] Compiling '/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/__init__.py'...
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/__init__.py
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_body_part_elm.py
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_person.py
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_person_s.c
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_body_part_elm_s.c
+[11.106s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_persons.py
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/msg/_persons_s.c
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/srv
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/srv/__init__.py
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/srv/_get_pose_s.c
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/srv/_get_pose.py
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[11.107s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.107s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[11.108s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.108s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[11.109s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/python3.8/site-packages/pose_interface/pose_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[11.109s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__python.so
+[11.109s] -- Set runtime path of "/home/vlad/ros2_ws/install/pose_interface/lib/libpose_interface__python.so" to ""
+[11.109s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/BodyPartElm.idl
+[11.109s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/Person.idl
+[11.109s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/Persons.idl
+[11.109s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/srv/GetPose.idl
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/BodyPartElm.msg
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/Person.msg
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/msg/Persons.msg
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/srv/GetPose.srv
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/srv/GetPose_Request.msg
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/srv/GetPose_Response.msg
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/ament_index/resource_index/package_run_dependencies/pose_interface
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/ament_index/resource_index/parent_prefix_path/pose_interface
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/ament_prefix_path.sh
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/ament_prefix_path.dsv
+[11.110s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/path.sh
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/environment/path.dsv
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/local_setup.bash
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/local_setup.sh
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/local_setup.zsh
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/local_setup.dsv
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/package.dsv
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/ament_index/resource_index/packages/pose_interface
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_generator_cExport.cmake
+[11.111s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_generator_cExport-noconfig.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_introspection_cExport.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_cExport.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_cExport-noconfig.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_generator_cppExport.cmake
+[11.112s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_introspection_cppExport.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_cppExport.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/rosidl_cmake-extras.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/ament_cmake_export_targets-extras.cmake
+[11.113s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.114s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.114s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.114s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interfaceConfig.cmake
+[11.114s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/cmake/pose_interfaceConfig-version.cmake
+[11.114s] -- Installing: /home/vlad/ros2_ws/install/pose_interface/share/pose_interface/package.xml
+[11.116s] Invoked command in '/home/vlad/ros2_ws/build/pose_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vlad/dev_ws/install/py_srvcli:/home/vlad/ros2_ws/install/tfpose_ros2:/home/vlad/dev_ws/install/py_pubsub:/home/vlad/ros2_foxy/install/ros2bag:/home/vlad/ros2_foxy/install/tracetools_launch:/home/vlad/ros2_foxy/install/topic_monitor:/home/vlad/ros2_foxy/install/examples_tf2_py:/home/vlad/ros2_foxy/install/sros2:/home/vlad/ros2_foxy/install/rqt_topic:/home/vlad/ros2_foxy/install/rqt_reconfigure:/home/vlad/ros2_foxy/install/rqt_action:/home/vlad/ros2_foxy/install/rqt:/home/vlad/ros2_foxy/install/rqt_graph:/home/vlad/ros2_foxy/install/rqt_gui_py:/home/vlad/ros2_foxy/install/rqt_gui:/home/vlad/ros2_foxy/install/ros2trace:/home/vlad/ros2_foxy/install/ros2topic:/home/vlad/ros2_foxy/install/ros2test:/home/vlad/ros2_foxy/install/ros2component:/home/vlad/ros2_foxy/install/ros2param:/home/vlad/ros2_foxy/install/ros2lifecycle:/home/vlad/ros2_foxy/install/ros2service:/home/vlad/ros2_foxy/install/ros2run:/home/vlad/ros2_foxy/install/ros2launch:/home/vlad/ros2_foxy/install/ros2pkg:/home/vlad/ros2_foxy/install/ros2node:/home/vlad/ros2_foxy/install/ros2multicast:/home/vlad/ros2_foxy/install/ros2interface:/home/vlad/ros2_foxy/install/ros2doctor:/home/vlad/ros2_foxy/install/ros2action:/home/vlad/ros2_foxy/install/ros2cli:/home/vlad/ros2_foxy/install/quality_of_service_demo_py:/home/vlad/ros2_foxy/install/launch_testing_ros:/home/vlad/ros2_foxy/install/launch_ros:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_subscriber:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_service:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_publisher:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_client:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_server:/home/vlad/ros2_foxy/install/examples_rclpy_minimal_action_client:/home/vlad/ros2_foxy/install/examples_rclpy_executors:/home/vlad/ros2_foxy/install/demo_nodes_py:/home/vlad/ros2_foxy/install/action_tutorials_py:/home/vlad/ros2_foxy/install/ament_uncrustify:/home/vlad/ros2_foxy/install/tracetools_trace:/home/vlad/ros2_foxy/install/tracetools_read:/home/vlad/ros2_foxy/install/test_launch_ros:/home/vlad/ros2_foxy/install/rpyutils:/home/vlad/ros2_foxy/install/rosidl_runtime_py:/home/vlad/ros2_foxy/install/launch_yaml:/home/vlad/ros2_foxy/install/launch_xml:/home/vlad/ros2_foxy/install/launch_testing:/home/vlad/ros2_foxy/install/launch:/home/vlad/ros2_foxy/install/osrf_pycommon:/home/vlad/ros2_foxy/install/domain_coordinator:/home/vlad/ros2_foxy/install/ament_xmllint:/home/vlad/ros2_foxy/install/ament_pyflakes:/home/vlad/ros2_foxy/install/ament_pycodestyle:/home/vlad/ros2_foxy/install/ament_pep257:/home/vlad/ros2_foxy/install/ament_pclint:/home/vlad/ros2_foxy/install/ament_package:/home/vlad/ros2_foxy/install/ament_mypy:/home/vlad/ros2_foxy/install/ament_lint_cmake:/home/vlad/ros2_foxy/install/ament_flake8:/home/vlad/ros2_foxy/install/ament_copyright:/home/vlad/ros2_foxy/install/ament_lint:/home/vlad/ros2_foxy/install/ament_index_python:/home/vlad/ros2_foxy/install/ament_cpplint:/home/vlad/ros2_foxy/install/ament_cppcheck:/home/vlad/ros2_foxy/install/ament_clang_tidy:/home/vlad/ros2_foxy/install/ament_clang_format:/opt/ros/foxy /usr/bin/cmake --install /home/vlad/ros2_ws/build/pose_interface

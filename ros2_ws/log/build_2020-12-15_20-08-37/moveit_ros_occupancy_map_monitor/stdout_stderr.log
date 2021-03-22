@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.1.0 (/home/vlad/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found moveit_core: 2.1.0 (/home/vlad/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/vlad/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found pluginlib: 2.5.2 (/home/vlad/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/moveit_ros_occupancy_map_monitor
+[35m[1mScanning dependencies of target moveit_ros_occupancy_map_monitor[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_updater.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_monitor.dir/src/occupancy_map_monitor.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmoveit_ros_occupancy_map_monitor.so[0m
+[ 60%] Built target moveit_ros_occupancy_map_monitor
+[35m[1mScanning dependencies of target moveit_ros_occupancy_map_server[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/moveit_ros_occupancy_map_server.dir/src/occupancy_map_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable moveit_ros_occupancy_map_server[0m
+[100%] Built target moveit_ros_occupancy_map_server
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/library_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so.
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so." to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/libmoveit_ros_occupancy_map_monitor.so
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server
+-- Set runtime path of "/home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib/moveit_ros_occupancy_map_monitor/moveit_ros_occupancy_map_server" to ""
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_monitor.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map_updater.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/include/moveit/occupancy_map_monitor/occupancy_map.h
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/package_run_dependencies/moveit_ros_occupancy_map_monitor
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/parent_prefix_path/moveit_ros_occupancy_map_monitor
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/environment/path.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.bash
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.sh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.dsv
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/ament_index/resource_index/packages/moveit_ros_occupancy_map_monitor
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/cmake/moveit_ros_occupancy_map_monitorConfig-version.cmake
+-- Installing: /home/vlad/ros2_ws/install/moveit_ros_occupancy_map_monitor/share/moveit_ros_occupancy_map_monitor/package.xml

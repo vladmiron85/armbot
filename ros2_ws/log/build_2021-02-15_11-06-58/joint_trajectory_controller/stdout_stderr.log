@@ -1,0 +1,78 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+-- Found controller_interface: 0.0.0 (/home/vlad/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found pluginlib: 2.5.2 (/home/vlad/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Found realtime_tools: 2.1.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.9.5 (/home/vlad/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found controller_manager: 0.0.0 (/home/vlad/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+-- Found test_robot_hardware: 0.0.0 (/home/vlad/ros2_ws/install/test_robot_hardware/share/test_robot_hardware/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/vlad/ros2_ws/src/ros2_controllers/joint_trajectory_controller/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/joint_trajectory_controller
+[35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[ 26%] Built target gtest_main
+[ 26%] Built target gtest
+[35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[ 46%] Built target test_load_joint_trajectory_controller
+[ 53%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[ 60%] Built target joint_trajectory_controller
+[35m[1mScanning dependencies of target test_trajectory_controller[0m
+[35m[1mScanning dependencies of target test_trajectory_actions[0m
+[ 66%] [32m[1mLinking CXX executable test_trajectory[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[ 86%] Built target test_trajectory
+[ 93%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[ 93%] Built target test_trajectory_actions
+[100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[100%] Built target test_trajectory_controller
+-- Install configuration: "Release"
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+-- Set runtime path of "/home/vlad/ros2_ws/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml

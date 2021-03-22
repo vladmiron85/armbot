@@ -1,0 +1,197 @@
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanNode::ScanNode(octomap::Pointcloud*, octomap::pose6d, unsigned int)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:57:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   57 |       : scan(_scan), pose(_pose), id(_id[01;35m[K)[m[K {}
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanEdge::ScanEdge(octomap::ScanNode*, octomap::ScanNode*, octomap::pose6d)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:87:76:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   87 |       : first(_first), second(_second), constraint(_constraint), weight(1.0[01;35m[K)[m[K { }
+      |                                                                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanNode::ScanNode(octomap::Pointcloud*, octomap::pose6d, unsigned int)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:57:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   57 |       : scan(_scan), pose(_pose), id(_id[01;35m[K)[m[K {}
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanEdge::ScanEdge(octomap::ScanNode*, octomap::ScanNode*, octomap::pose6d)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:87:76:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   87 | _first), second(_second), constraint(_constraint), weight(1.0[01;35m[K)[m[K { }
+      |                                                              [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::Pointcloud&, const point3d&, const pose6d&, double, bool, bool) [with NODE = octomap::OcTreeNode; octomap::point3d = octomath::Vector3; octomap::pose6d = octomath::Pose6D][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:105:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:109:31:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  109 |     [01;35m[Ktransformed_scan.transform(frame_origin)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:35[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/Pointcloud.h:78:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid octomap::Pointcloud::transform(octomap::pose6d)[m[K’
+   78 |     void transform([01;36m[Kpose6d transform[m[K);
+      |                    [01;36m[K~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::ScanNode&, double, bool, bool) [with NODE = octomap::OcTreeNode][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:76:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:79:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   79 |     pose6d [01;35m[Kframe_origin[m[K = scan.pose;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/propagation_distance_field.cpp:37[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::Pointcloud&, const point3d&, const pose6d&, double, bool, bool) [with NODE = octomap::OcTreeNode; octomap::point3d = octomath::Vector3; octomap::pose6d = octomath::Pose6D][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:105:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:109:31:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  109 |     [01;35m[Ktransformed_scan.transform(frame_origin)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:35[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/Pointcloud.h:78:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid octomap::Pointcloud::transform(octomap::pose6d)[m[K’
+   78 |     void transform([01;36m[Kpose6d transform[m[K);
+      |                    [01;36m[K~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::ScanNode&, double, bool, bool) [with NODE = octomap::OcTreeNode][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:76:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:79:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   79 |     pose6d [01;35m[Kframe_origin[m[K = scan.pose;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/src/distance_field.cpp:41[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanNode::ScanNode(octomap::Pointcloud*, octomap::pose6d, unsigned int)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:57:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   57 |       : scan(_scan), pose(_pose), id(_id[01;35m[K)[m[K {}
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:36[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:[m[K In constructor ‘[01m[Koctomap::ScanEdge::ScanEdge(octomap::ScanNode*, octomap::ScanNode*, octomap::pose6d)[m[K’:
+[01m[K/opt/ros/foxy/include/octomap/ScanGraph.h:87:76:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   87 | _first), second(_second), constraint(_constraint), weight(1.0[01;35m[K)[m[K { }
+      |                                                              [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::Pointcloud&, const point3d&, const pose6d&, double, bool, bool) [with NODE = octomap::OcTreeNode; octomap::point3d = octomath::Vector3; octomap::pose6d = octomath::Pose6D][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:105:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:109:31:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  109 |     [01;35m[Ktransformed_scan.transform(frame_origin)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap.h:35[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/Pointcloud.h:78:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid octomap::Pointcloud::transform(octomap::pose6d)[m[K’
+   78 |     void transform([01;36m[Kpose6d transform[m[K);
+      |                    [01;36m[K~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.h:506[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/OcTree.h:38[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:37[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx: In instantiation of ‘[01m[Kvoid octomap::OccupancyOcTreeBase<NODE>::insertPointCloud(const octomap::ScanNode&, double, bool, bool) [with NODE = octomap::OcTreeNode][m[K’:
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:76:8:[m[K   required from here
+[01m[K/opt/ros/foxy/include/octomap/OccupancyOcTreeBase.hxx:79:12:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Koctomath::Pose6D::Pose6D(const octomath::Pose6D&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+   79 |     pose6d [01;35m[Kframe_origin[m[K = scan.pose;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/octomap/octomap_types.h:43[m[K,
+                 from [01m[K/opt/ros/foxy/include/octomap/octomap.h:34[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/include/moveit/distance_field/propagation_distance_field.h:44[m[K,
+                 from [01m[K/home/vlad/ros2_ws/src/moveit2/moveit_core/distance_field/test/test_distance_field.cpp:40[m[K:
+[01m[K/opt/ros/foxy/include/octomap/math/Pose6D.h:71:13:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Koctomath::Pose6D[m[K’ has user-provided ‘[01m[Koctomath::Pose6D& octomath::Pose6D::operator=(const octomath::Pose6D&)[m[K’
+   71 |     Pose6D& [01;36m[Koperator[m[K= (const Pose6D& other);
+      |             [01;36m[K^~~~~~~~[m[K

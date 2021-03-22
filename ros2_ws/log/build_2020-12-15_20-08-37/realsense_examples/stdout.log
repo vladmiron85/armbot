@@ -1,0 +1,42 @@
+-- Found ament_cmake: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found realsense_ros: 2.0.8 (/home/vlad/ros2_ws/install/realsense_ros/share/realsense_ros/cmake)
+-- Found realsense_node: 2.0.8 (/home/vlad/ros2_ws/install/realsense_node/share/realsense_node/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/realsense_examples
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_camera.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_cartographer.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_demo_rgbd.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_demo_t265.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_multiple_devices.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_nav.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/rs_t265_and_d400.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/tb3_robot.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/launch/template.launch.py
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/d415.yaml
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/d435.yaml
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/d435i.yaml
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/demo_rgbd.rviz
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/demo_t265.rviz
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/rs_cartographer.lua
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/rs_cartographer.rviz
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/config/t265.yaml
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/ament_index/resource_index/package_run_dependencies/realsense_examples
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/ament_index/resource_index/parent_prefix_path/realsense_examples
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/environment/path.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/environment/path.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/local_setup.bash
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/local_setup.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/local_setup.zsh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/local_setup.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/package.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/ament_index/resource_index/packages/realsense_examples
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/cmake/realsense_examplesConfig.cmake
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/cmake/realsense_examplesConfig-version.cmake
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_examples/share/realsense_examples/package.xml

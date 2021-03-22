@@ -1,0 +1,98 @@
+-- Found rclcpp: 2.2.0 (/home/vlad/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.1.0 (/home/vlad/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.2 (/home/vlad/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found console_bridge_vendor: 1.2.2 (/home/vlad/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/vlad/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)
+-- Found random_numbers: 2.0.0 (/opt/ros/foxy/share/random_numbers/cmake)
+-- Found resource_retriever: 2.3.3 (/home/vlad/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake)
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found shape_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/shape_msgs/share/shape_msgs/cmake)
+-- Found visualization_msgs: 2.0.3 (/home/vlad/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake)
+-- QHULL found (include: /usr/include/libqhull_r, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull_r.so;debug;/usr/lib/x86_64-linux-gnu/libqhull_r.so)
+-- Found ament_cmake_gtest: 0.9.7 (/home/vlad/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/vlad/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vlad/ros2_ws/build/geometric_shapes
+[  9%] Built target gtest_main
+[ 12%] Built target gtest
+[ 15%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/aabb.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/bodies.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/body_operations.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_extents.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/mesh_operations.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_operations.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_to_marker.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o[0m
+[ 39%] [32mBuilding CXX object test/CMakeFiles/test_basics.dir/test_basics.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_basics[0m
+[ 42%] Built target test_basics
+[ 45%] [32m[1mLinking CXX shared library libgeometric_shapes.so[0m
+[ 45%] Built target geometric_shapes
+[ 48%] [32mBuilding CXX object test/CMakeFiles/test_bounding_sphere.dir/test_bounding_sphere.cpp.o[0m
+[ 51%] [32mBuilding CXX object test/CMakeFiles/test_bounding_cylinder.dir/test_bounding_cylinder.cpp.o[0m
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_create_mesh.dir/test_create_mesh.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/CMakeFiles/test_point_inclusion.dir/test_point_inclusion.cpp.o[0m
+[ 60%] [32mBuilding CXX object test/CMakeFiles/test_ray_intersection.dir/test_ray_intersection.cpp.o[0m
+[ 63%] [32mBuilding CXX object test/CMakeFiles/test_bounding_box.dir/test_bounding_box.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/test_loaded_meshes.dir/test_loaded_meshes.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_shapes.dir/test_shapes.cpp.o[0m
+[ 72%] [32mBuilding CXX object test/CMakeFiles/test_body_operations.dir/test_body_operations.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_create_mesh[0m
+[ 75%] Built target test_create_mesh
+[ 78%] [32m[1mLinking CXX executable test_bounding_sphere[0m
+[ 78%] Built target test_bounding_sphere
+[ 81%] [32m[1mLinking CXX executable test_loaded_meshes[0m
+[ 84%] [32m[1mLinking CXX executable test_bounding_box[0m
+[ 84%] Built target test_loaded_meshes
+[ 84%] Built target test_bounding_box
+[ 87%] [32m[1mLinking CXX executable test_body_operations[0m
+[ 90%] [32m[1mLinking CXX executable test_shapes[0m
+[ 90%] Built target test_body_operations
+[ 90%] Built target test_shapes
+[ 93%] [32m[1mLinking CXX executable test_bounding_cylinder[0m
+[ 93%] Built target test_bounding_cylinder
+[ 96%] [32m[1mLinking CXX executable test_point_inclusion[0m
+[ 96%] Built target test_point_inclusion
+[100%] [32m[1mLinking CXX executable test_ray_intersection[0m
+[100%] Built target test_ray_intersection
+-- Install configuration: "Release"
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.sh
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/aabb.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_extents.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/body_operations.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_to_marker.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/mesh_operations.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_messages.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/check_isometry.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/solid_primitive_dims.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/bodies.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shapes.h
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/include/geometric_shapes/shape_operations.h
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/lib/libgeometric_shapes.so.2.0.0
+-- Set runtime path of "/home/vlad/ros2_ws/install/geometric_shapes/lib/libgeometric_shapes.so.2.0.0" to ""
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/lib/libgeometric_shapes.so
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/package_run_dependencies/geometric_shapes
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/parent_prefix_path/geometric_shapes
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/ament_prefix_path.dsv
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/environment/path.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.bash
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.sh
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.zsh
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/local_setup.dsv
+-- Installing: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/package.dsv
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/ament_index/resource_index/packages/geometric_shapes
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+-- Up-to-date: /home/vlad/ros2_ws/install/geometric_shapes/share/geometric_shapes/package.xml

@@ -1,0 +1,20 @@
+[100%] Built target realsense_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/lib/realsense_node/realsense_node
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/bin/realsense_node
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/ament_index/resource_index/package_run_dependencies/realsense_node
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/ament_index/resource_index/parent_prefix_path/realsense_node
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/environment/path.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/environment/path.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/local_setup.bash
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/local_setup.sh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/local_setup.zsh
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/local_setup.dsv
+-- Symlinking: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/package.dsv
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/ament_index/resource_index/packages/realsense_node
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig.cmake
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/vlad/ros2_ws/install/realsense_node/share/realsense_node/package.xml
